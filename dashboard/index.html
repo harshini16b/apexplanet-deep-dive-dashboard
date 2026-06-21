@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ApexPlanet Retail Intelligence Dashboard</title>
+<script src="assets/chart.umd.js"></script>
+<script src="data/data.js"></script>
+<style>
+:root{
+  --bg:#0B0E1A;
+  --bg-panel:#111527;
+  --panel:#131830;
+  --panel-2:#0F1326;
+  --line:#222a4a;
+  --text:#EAEEFC;
+  --text-dim:#8C93B8;
+  --accent:#FF6A39;
+  --accent-soft:#FF6A3922;
+  --good:#3FD6A5;
+  --warn:#F2C14E;
+  --bad:#FF5C7A;
+  --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  --sans: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  --display: 'Space Grotesk', 'Inter', sans-serif;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 15% 0%, #1a2050 0%, transparent 45%),
+    radial-gradient(circle at 85% 10%, #2a1535 0%, transparent 40%);
+}
+
+/* ---------- Top bar ---------- */
+.topbar{
+  display:flex; justify-content:space-between; align-items:center;
+  padding: 22px 36px;
+  border-bottom: 1px solid var(--line);
+  position: sticky; top:0; z-index: 50;
+  background: rgba(11,14,26,0.92);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.brand{ display:flex; align-items:center; gap:12px; }
+.brand-mark{
+  width: 34px; height:34px; border-radius:8px;
+  background: linear-gradient(135deg, var(--accent), #FFB07A);
+  display:flex; align-items:center; justify-content:center;
+  font-family: var(--display); font-weight:700; color:#0B0E1A; font-size:16px;
+}
+.brand-text h1{
+  font-family: var(--display); font-size: 18px; font-weight:700; letter-spacing:0.2px;
+}
+.brand-text span{ font-size:11px; color:var(--text-dim); letter-spacing:0.5px; text-transform:uppercase; font-family: var(--mono);}
+
+.tabs{ display:flex; gap:6px; background:var(--panel-2); padding:4px; border-radius:10px; border:1px solid var(--line);}
+.tab-btn{
+  font-family: var(--sans); font-weight:600; font-size:13px; color:var(--text-dim);
+  background:transparent; border:none; padding:9px 16px; border-radius:8px; cursor:pointer;
+  transition: all .15s ease;
+}
+.tab-btn.active{ background: var(--accent); color:#1a0a02; }
+.tab-btn:not(.active):hover{ color:var(--text); background:#1b2142; }
+
+/* ---------- Layout ---------- */
+.wrap{ max-width:1360px; margin:0 auto; padding: 28px 36px 80px; }
+.view{ display:none; animation: fadeIn .25s ease; }
+.view.active{ display:block; }
+@keyframes fadeIn{ from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);} }
+
+.section-head{ display:flex; justify-content:space-between; align-items:baseline; margin: 36px 0 16px; flex-wrap:wrap; gap:8px;}
+.section-head h2{ font-family:var(--display); font-size:20px; font-weight:700;}
+.section-head p{ font-size:12.5px; color:var(--text-dim); font-family: var(--mono);}
+
+/* ---------- KPI cards ---------- */
+.kpi-grid{ display:grid; grid-template-columns: repeat(5, 1fr); gap:14px; margin-top:18px;}
+.kpi-card{
+  background: var(--panel); border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px;
+  position:relative; overflow:hidden;
+}
+.kpi-card::after{
+  content:''; position:absolute; right:-30px; top:-30px; width:90px; height:90px; border-radius:50%;
+  background: var(--accent-soft); filter: blur(2px);
+}
+.kpi-label{ font-size:11px; text-transform:uppercase; letter-spacing:0.6px; color:var(--text-dim); font-family:var(--mono); font-weight:500;}
+.kpi-value{ font-family:var(--display); font-size:27px; font-weight:700; margin-top:8px; }
+.kpi-sub{ font-size:11.5px; color: var(--good); margin-top:6px; font-family:var(--mono); }
+.kpi-sub.bad{ color:var(--bad); }
+
+/* ---------- Filters ---------- */
+.filter-bar{
+  display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+  background: var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:12px 16px; margin-top:14px;
+}
+.filter-bar label{ font-size:11px; color:var(--text-dim); text-transform:uppercase; font-family:var(--mono); margin-right:4px;}
+select{
+  background: var(--panel); color:var(--text); border:1px solid var(--line); border-radius:8px;
+  padding:7px 10px; font-family:var(--sans); font-size:13px; cursor:pointer;
+}
+select:focus{ outline: 2px solid var(--accent); }
+.reset-btn{
+  background:transparent; border:1px solid var(--line); color:var(--text-dim); border-radius:8px; padding:7px 12px;
+  font-size:12px; cursor:pointer; font-family:var(--sans); margin-left:auto;
+}
+.reset-btn:hover{ color:var(--accent); border-color:var(--accent); }
+
+/* ---------- Grid panels ---------- */
+.grid-2{ display:grid; grid-template-columns: 1.3fr 1fr; gap:18px; margin-top:18px;}
+.grid-3{ display:grid; grid-template-columns: repeat(3,1fr); gap:18px; margin-top:18px;}
+.panel{ background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px;}
+.panel h3{ font-family:var(--display); font-size:14.5px; font-weight:700; margin-bottom:14px;}
+.panel h3 small{ color:var(--text-dim); font-family:var(--mono); font-weight:400; font-size:11px; display:block; margin-top:3px;}
+canvas{ max-height: 320px; }
+
+/* ---------- Tables ---------- */
+table{ width:100%; border-collapse:collapse; font-size:13px;}
+th{ text-align:left; color:var(--text-dim); font-family:var(--mono); font-size:10.5px; text-transform:uppercase; padding:8px 10px; border-bottom:1px solid var(--line); letter-spacing:0.4px;}
+td{ padding:9px 10px; border-bottom:1px solid #1a2042; color:var(--text);}
+tr:hover td{ background:#161b38;}
+.badge{ padding:3px 9px; border-radius:20px; font-size:11px; font-weight:600; font-family:var(--mono); display:inline-block;}
+
+/* ---------- KPI definitions cards (deep dive page) ---------- */
+.kpi-def-grid{ display:grid; grid-template-columns: repeat(2,1fr); gap:16px; margin-top:16px;}
+.kpi-def-card{ background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px;}
+.kpi-def-card .tag{ font-family:var(--mono); font-size:10.5px; color:var(--accent); text-transform:uppercase; letter-spacing:0.6px;}
+.kpi-def-card h4{ font-family:var(--display); font-size:17px; margin:6px 0 10px;}
+.kpi-def-card .formula{ background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:10px 12px; font-family:var(--mono); font-size:12.5px; color:var(--good); margin-bottom:10px;}
+.kpi-def-card p{ font-size:13px; color:var(--text-dim); line-height:1.55;}
+
+/* ---------- segment legend chips ---------- */
+.legend-row{ display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;}
+.chip{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-dim); font-family:var(--mono);}
+.dot{ width:9px; height:9px; border-radius:50%; display:inline-block;}
+
+footer{ text-align:center; color:var(--text-dim); font-size:11.5px; padding:30px 0 10px; font-family:var(--mono);}
+
+@media (max-width: 980px){
+  .kpi-grid{ grid-template-columns: repeat(2,1fr);}
+  .grid-2, .grid-3, .kpi-def-grid{ grid-template-columns: 1fr;}
+  .wrap{ padding: 20px 16px 60px;}
+  .topbar{ padding: 16px 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">
+    <div class="brand-mark">AP</div>
+    <div class="brand-text">
+      <h1>ApexPlanet Retail Intelligence</h1>
+      <span>Deep-Dive Analysis &amp; Interactive Dashboard</span>
+    </div>
+  </div>
+  <div class="tabs">
+    <button class="tab-btn active" data-view="overview">Overview</button>
+    <button class="tab-btn" data-view="kpis">Core KPIs</button>
+    <button class="tab-btn" data-view="segments">Customer Segmentation</button>
+    <button class="tab-btn" data-view="explorer">Data Explorer</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- ============ OVERVIEW ============ -->
+  <div class="view active" id="view-overview">
+
+    <div class="filter-bar">
+      <label>City</label>
+      <select id="f-city"><option value="all">All Cities</option></select>
+      <label>Category</label>
+      <select id="f-category"><option value="all">All Categories</option></select>
+      <label>Year</label>
+      <select id="f-year"><option value="all">All Years</option></select>
+      <button class="reset-btn" id="reset-filters">Reset filters</button>
+    </div>
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Revenue Trend <small>Monthly revenue &amp; order volume</small></h3>
+        <canvas id="chart-trend"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Revenue by Category <small>Share of total revenue</small></h3>
+        <canvas id="chart-category-donut"></canvas>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Revenue by City <small>Top performing markets</small></h3>
+        <canvas id="chart-city"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Revenue by Age Group <small>Customer demographics</small></h3>
+        <canvas id="chart-age"></canvas>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============ KPIs ============ -->
+  <div class="view" id="view-kpis">
+    <div class="section-head">
+      <h2>Core KPI Definitions</h2>
+      <p>5 KPIs · formula + business rationale</p>
+    </div>
+    <div class="kpi-def-grid" id="kpi-def-grid"></div>
+
+    <div class="section-head">
+      <h2>Sales Rhythm</h2>
+      <p>Where in the week and which products carry the business</p>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Revenue by Day of Week <small>Operational planning signal</small></h3>
+        <canvas id="chart-dow"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Top Products by Revenue <small>Across all categories</small></h3>
+        <canvas id="chart-products"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SEGMENTS ============ -->
+  <div class="view" id="view-segments">
+    <div class="section-head">
+      <h2>Deep-Dive: Customer Segmentation (RFM)</h2>
+      <p>Recency · Frequency · Monetary — quartile-scored, rule-based segments</p>
+    </div>
+
+    <p style="color:var(--text-dim); font-size:13.5px; line-height:1.6; max-width:760px; margin-bottom:6px;">
+      Each of ApexPlanet's 947 customers is scored 1–4 on how <b style="color:var(--text)">recently</b> they bought,
+      how <b style="color:var(--text)">often</b>, and how much they <b style="color:var(--text)">spent</b> — then assigned
+      to one of six business-rule segments below. This replaces month-over-month cohort retention (not viable here, since
+      94.5% of customers in this 12-month window ordered only once) with a segmentation view that is directly actionable for targeting.
+    </p>
+
+    <div class="legend-row" id="segment-legend"></div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Customers per Segment <small>Count &amp; share of base</small></h3>
+        <canvas id="chart-seg-count" style="max-height:280px;"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Revenue per Segment <small>Where the money concentrates</small></h3>
+        <canvas id="chart-seg-revenue" style="max-height:280px;"></canvas>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:18px;">
+      <h3>Recency vs. Monetary by Segment <small>Bubble size = average order frequency</small></h3>
+      <canvas id="chart-seg-scatter" style="max-height:380px;"></canvas>
+    </div>
+
+    <div class="section-head">
+      <h2>Top 10 Customers by Lifetime Value</h2>
+      <p>Highest revenue-generating customers, with segment context</p>
+    </div>
+    <div class="panel">
+      <table id="table-top-customers">
+        <thead><tr><th>Customer</th><th>City</th><th>Segment</th><th>Orders</th><th>Total Spend</th><th>Days Since Last Order</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============ EXPLORER ============ -->
+  <div class="view" id="view-explorer">
+    <div class="section-head">
+      <h2>Order-Level Data Explorer</h2>
+      <p>Filter and inspect raw transactions</p>
+    </div>
+    <div class="filter-bar">
+      <label>City</label>
+      <select id="ex-city"><option value="all">All Cities</option></select>
+      <label>Category</label>
+      <select id="ex-category"><option value="all">All Categories</option></select>
+      <label>Gender</label>
+      <select id="ex-gender"><option value="all">All</option></select>
+      <span style="margin-left:auto; font-family:var(--mono); font-size:12px; color:var(--text-dim);" id="ex-count"></span>
+    </div>
+    <div class="panel" style="margin-top:14px; max-height:560px; overflow:auto;">
+      <table id="table-orders">
+        <thead><tr><th>Order ID</th><th>Date</th><th>City</th><th>Category</th><th>Product</th><th>Qty</th><th>Unit Price</th><th>Total</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>ApexPlanet Internship · Task 3 — Deep-Dive Analysis &amp; Interactive Dashboarding · Data: 1,000 orders · Jan 2025 – Jan 2026</footer>
+</div>
+
+<script>
+const D = DASHBOARD_DATA;
+const fmtINR = n => '₹' + (n>=10000000 ? (n/10000000).toFixed(2)+'Cr' : n>=100000 ? (n/100000).toFixed(2)+'L' : n.toLocaleString('en-IN', {maximumFractionDigits:0}));
+const fmtFull = n => '₹' + n.toLocaleString('en-IN', {maximumFractionDigits:0});
+
+const SEG_COLORS = {
+  'Champions': '#3FD6A5',
+  'Loyal High-Value': '#5BA8FF',
+  'At-Risk High-Value': '#F2C14E',
+  'Needs Attention': '#A78BFA',
+  'Recent Low-Engagement': '#FF8FB1',
+  'Lost / Churned': '#5A6285'
+};
+const PALETTE = ['#FF6A39','#3FD6A5','#5BA8FF','#F2C14E','#A78BFA','#FF8FB1'];
+
+Chart.defaults.color = '#8C93B8';
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.borderColor = '#222a4a';
+
+/* ---------------- TABS ---------------- */
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('view-'+btn.dataset.view).classList.add('active');
+  });
+});
+
+/* ---------------- OVERVIEW: KPI CARDS ---------------- */
+function renderKpiCards(filtered){
+  const revenue = filtered.reduce((s,r)=>s+r.Total_Sales,0);
+  const orders = filtered.length;
+  const customers = new Set(filtered.map(r=>r.Customer_ID)).size;
+  const aov = orders ? revenue/orders : 0;
+  const counts = {};
+  filtered.forEach(r=>counts[r.Customer_ID]=(counts[r.Customer_ID]||0)+1);
+  const repeat = Object.values(counts).filter(c=>c>1).length;
+  const repeatRate = customers ? (repeat/customers*100) : 0;
+
+  const cards = [
+    {label:'Total Revenue', value: fmtINR(revenue), sub: orders+' orders'},
+    {label:'Total Orders', value: orders.toLocaleString('en-IN'), sub: customers+' unique customers'},
+    {label:'Avg Order Value', value: fmtFull(Math.round(aov)), sub: 'per transaction'},
+    {label:'Repeat Customer Rate', value: repeatRate.toFixed(1)+'%', sub: repeat+' customers, 2+ orders'},
+    {label:'Active Markets', value: new Set(filtered.map(r=>r.City)).size, sub: 'cities in current view'}
+  ];
+  document.getElementById('kpi-grid').innerHTML = cards.map(c=>`
+    <div class="kpi-card">
+      <div class="kpi-label">${c.label}</div>
+      <div class="kpi-value">${c.value}</div>
+      <div class="kpi-sub">${c.sub}</div>
+    </div>`).join('');
+}
+
+/* ---------------- FILTER SETUP ---------------- */
+const cities = [...new Set(D.orders_raw.map(r=>r.City))].sort();
+const categories = [...new Set(D.orders_raw.map(r=>r.Category))].sort();
+const years = [...new Set(D.orders_raw.map(r=>r.Order_Date.slice(0,4)))].sort();
+const genders = [...new Set(D.orders_raw.map(r=>r.Gender))].sort();
+
+function fillSelect(id, items){
+  const sel = document.getElementById(id);
+  items.forEach(i=>{
+    const opt = document.createElement('option');
+    opt.value = i; opt.textContent = i;
+    sel.appendChild(opt);
+  });
+}
+fillSelect('f-city', cities); fillSelect('f-category', categories); fillSelect('f-year', years);
+fillSelect('ex-city', cities); fillSelect('ex-category', categories); fillSelect('ex-gender', genders);
+
+let charts = {};
+function destroyChart(key){ if(charts[key]){ charts[key].destroy(); } }
+
+function applyFilters(){
+  const city = document.getElementById('f-city').value;
+  const cat = document.getElementById('f-category').value;
+  const year = document.getElementById('f-year').value;
+  return D.orders_raw.filter(r =>
+    (city==='all'||r.City===city) &&
+    (cat==='all'||r.Category===cat) &&
+    (year==='all'||r.Order_Date.slice(0,4)===year)
+  );
+}
+
+function aggregate(rows, keyFn){
+  const m = {};
+  rows.forEach(r=>{
+    const k = keyFn(r);
+    if(!m[k]) m[k] = {revenue:0, orders:0};
+    m[k].revenue += r.Total_Sales;
+    m[k].orders += 1;
+  });
+  return m;
+}
+
+function renderOverview(){
+  const filtered = applyFilters();
+  renderKpiCards(filtered);
+
+  // Trend (monthly) — always by Order_Date.slice(0,7)
+  const monthMap = {};
+  filtered.forEach(r=>{
+    const ym = r.Order_Date.slice(0,7);
+    if(!monthMap[ym]) monthMap[ym] = {revenue:0, orders:0};
+    monthMap[ym].revenue += r.Total_Sales;
+    monthMap[ym].orders += 1;
+  });
+  const months = Object.keys(monthMap).sort();
+  destroyChart('trend');
+  charts.trend = new Chart(document.getElementById('chart-trend'), {
+    data: {
+      labels: months,
+      datasets: [
+        { type:'bar', label:'Orders', data: months.map(m=>monthMap[m].orders), backgroundColor:'#1f2547', borderRadius:4, yAxisID:'y1', order:2 },
+        { type:'line', label:'Revenue', data: months.map(m=>monthMap[m].revenue), borderColor:'#FF6A39', backgroundColor:'#FF6A3922', tension:.35, fill:true, pointRadius:3, pointBackgroundColor:'#FF6A39', yAxisID:'y', order:1 }
+      ]
+    },
+    options: {
+      responsive:true,
+      interaction:{mode:'index', intersect:false},
+      plugins:{ legend:{ labels:{boxWidth:10, font:{size:11}} },
+        tooltip:{ callbacks:{ label: ctx => ctx.dataset.label==='Revenue' ? ' Revenue: '+fmtFull(ctx.parsed.y) : ' Orders: '+ctx.parsed.y } } },
+      scales:{
+        y:{ position:'left', grid:{color:'#1b2142'}, ticks:{ callback:v=>fmtINR(v) } },
+        y1:{ position:'right', grid:{display:false}, ticks:{precision:0} },
+        x:{ grid:{display:false} }
+      }
+    }
+  });
+
+  // Category donut
+  const catAgg = aggregate(filtered, r=>r.Category);
+  const catLabels = Object.keys(catAgg).sort((a,b)=>catAgg[b].revenue-catAgg[a].revenue);
+  destroyChart('catdonut');
+  charts.catdonut = new Chart(document.getElementById('chart-category-donut'), {
+    type:'doughnut',
+    data:{ labels: catLabels, datasets:[{ data: catLabels.map(c=>catAgg[c].revenue), backgroundColor: PALETTE, borderWidth:0 }] },
+    options:{ plugins:{ legend:{position:'right', labels:{boxWidth:10,font:{size:11.5}}},
+      tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: ${fmtINR(ctx.parsed)}` } } }, cutout:'62%' }
+  });
+
+  // City bar
+  const cityAgg = aggregate(filtered, r=>r.City);
+  const cityLabels = Object.keys(cityAgg).sort((a,b)=>cityAgg[b].revenue-cityAgg[a].revenue);
+  destroyChart('city');
+  charts.city = new Chart(document.getElementById('chart-city'), {
+    type:'bar',
+    data:{ labels: cityLabels, datasets:[{ label:'Revenue', data: cityLabels.map(c=>cityAgg[c].revenue), backgroundColor:'#5BA8FF', borderRadius:5 }] },
+    options:{ indexAxis:'y', plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+fmtFull(ctx.parsed.x)}}},
+      scales:{ x:{ grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)} }, y:{grid:{display:false}} } }
+  });
+
+  // Age group bar
+  const ageOrder = ['18-25','26-35','36-45','46-55','56-65'];
+  const ageAgg = aggregate(filtered, r=>r.Age_Group);
+  destroyChart('age');
+  charts.age = new Chart(document.getElementById('chart-age'), {
+    type:'bar',
+    data:{ labels: ageOrder.filter(a=>ageAgg[a]), datasets:[{ label:'Revenue', data: ageOrder.filter(a=>ageAgg[a]).map(a=>ageAgg[a].revenue), backgroundColor:'#A78BFA', borderRadius:5 }] },
+    options:{ plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+fmtFull(ctx.parsed.y)}}},
+      scales:{ y:{ grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)} }, x:{grid:{display:false}} } }
+  });
+}
+
+['f-city','f-category','f-year'].forEach(id=>document.getElementById(id).addEventListener('change', renderOverview));
+document.getElementById('reset-filters').addEventListener('click', ()=>{
+  document.getElementById('f-city').value='all';
+  document.getElementById('f-category').value='all';
+  document.getElementById('f-year').value='all';
+  renderOverview();
+});
+
+/* ---------------- KPI DEFINITIONS PAGE ---------------- */
+const kpiDefs = [
+  { tag:'Growth', name:'Total Revenue', formula:'SUM(Total_Sales)', desc:'Total value of all completed orders. The single top-line measure of business scale — every other KPI exists to explain movements in this number.' },
+  { tag:'Efficiency', name:'Average Order Value (AOV)', formula:'SUM(Total_Sales) / COUNT(Order_ID)', desc:'Average revenue per transaction. Rising AOV with flat traffic means customers are buying more per visit — a cheaper growth lever than acquiring new customers.' },
+  { tag:'Retention', name:'Repeat Customer Rate', formula:'Customers with 2+ orders / Total customers', desc:'Share of the customer base that has purchased more than once in the period. Low repeat rate (5.5% here) signals an acquisition-heavy, retention-light business model — a key strategic flag.' },
+  { tag:'Retention', name:'Customer Recency (Days)', formula:'Snapshot Date − Last Order Date', desc:"Days since a customer's most recent purchase. Feeds directly into the RFM segmentation: low recency = engaged; high recency = at risk of churn." },
+  { tag:'Value', name:'Customer Lifetime Value (Monetary)', formula:'SUM(Total_Sales) per Customer_ID', desc:'Total historical spend per customer. Used to separate Champions and Loyal High-Value customers from one-time, low-value buyers for targeted retention spend.' }
+];
+document.getElementById('kpi-def-grid').innerHTML = kpiDefs.map(k=>`
+  <div class="kpi-def-card">
+    <div class="tag">${k.tag}</div>
+    <h4>${k.name}</h4>
+    <div class="formula">${k.formula}</div>
+    <p>${k.desc}</p>
+  </div>`).join('');
+
+// Day of week chart
+const dowOrder = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+const dowMap = {}; D.day_of_week.forEach(r=>dowMap[r.Day_of_Week]=r);
+new Chart(document.getElementById('chart-dow'), {
+  type:'bar',
+  data:{ labels: dowOrder, datasets:[{ label:'Revenue', data: dowOrder.map(d=>dowMap[d]?dowMap[d].Revenue:0), backgroundColor:'#FF6A39', borderRadius:5 }] },
+  options:{ plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+fmtFull(ctx.parsed.y)}}},
+    scales:{ y:{ grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)} }, x:{grid:{display:false}} } }
+});
+
+// Top products chart
+const prodSorted = [...D.product].sort((a,b)=>b.Revenue-a.Revenue).slice(0,6);
+new Chart(document.getElementById('chart-products'), {
+  type:'bar',
+  data:{ labels: prodSorted.map(p=>p.Product), datasets:[{ label:'Revenue', data: prodSorted.map(p=>p.Revenue), backgroundColor:'#3FD6A5', borderRadius:5 }] },
+  options:{ indexAxis:'y', plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+fmtFull(ctx.parsed.x)}}},
+    scales:{ x:{ grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)} }, y:{grid:{display:false}} } }
+});
+
+/* ---------------- SEGMENTS PAGE ---------------- */
+document.getElementById('segment-legend').innerHTML = Object.keys(SEG_COLORS).map(s=>
+  `<div class="chip"><span class="dot" style="background:${SEG_COLORS[s]}"></span>${s}</div>`).join('');
+
+const segSorted = [...D.segments].sort((a,b)=>b.Total_Revenue-a.Total_Revenue);
+new Chart(document.getElementById('chart-seg-count'), {
+  type:'bar',
+  data:{ labels: segSorted.map(s=>s.Segment), datasets:[{ data: segSorted.map(s=>s.Customers), backgroundColor: segSorted.map(s=>SEG_COLORS[s.Segment]), borderRadius:5 }] },
+  options:{ indexAxis:'y', plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+ctx.parsed.x+' customers'}}},
+    scales:{ x:{grid:{color:'#1b2142'}}, y:{grid:{display:false}} } }
+});
+new Chart(document.getElementById('chart-seg-revenue'), {
+  type:'bar',
+  data:{ labels: segSorted.map(s=>s.Segment), datasets:[{ data: segSorted.map(s=>s.Total_Revenue), backgroundColor: segSorted.map(s=>SEG_COLORS[s.Segment]), borderRadius:5 }] },
+  options:{ indexAxis:'y', plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>' '+fmtFull(ctx.parsed.x)}}},
+    scales:{ x:{grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)}}, y:{grid:{display:false}} } }
+});
+
+new Chart(document.getElementById('chart-seg-scatter'), {
+  type:'bubble',
+  data:{ datasets: segSorted.map(s=>({
+    label: s.Segment,
+    data:[{ x: s.Avg_Recency, y: s.Avg_Revenue, r: Math.max(8, s.Avg_Frequency*14) }],
+    backgroundColor: SEG_COLORS[s.Segment]+'cc'
+  })) },
+  options:{
+    plugins:{ legend:{ labels:{boxWidth:10,font:{size:11}} },
+      tooltip:{ callbacks:{ label: ctx => `${ctx.dataset.label}: ${Math.round(ctx.raw.x)}d recency, ${fmtFull(ctx.raw.y)} avg spend` } } },
+    scales:{
+      x:{ title:{display:true, text:'Avg. Days Since Last Order (Recency)', color:'#8C93B8', font:{size:11}}, grid:{color:'#1b2142'} },
+      y:{ title:{display:true, text:'Avg. Customer Spend (₹)', color:'#8C93B8', font:{size:11}}, grid:{color:'#1b2142'}, ticks:{callback:v=>fmtINR(v)} }
+    }
+  }
+});
+
+const topBody = document.querySelector('#table-top-customers tbody');
+topBody.innerHTML = D.top_customers.map(c=>`
+  <tr>
+    <td>${c.Customer_Name}</td>
+    <td>${c.City}</td>
+    <td><span class="badge" style="background:${SEG_COLORS[c.Segment]}22; color:${SEG_COLORS[c.Segment]}">${c.Segment}</span></td>
+    <td>${c.Frequency}</td>
+    <td>${fmtFull(c.Monetary)}</td>
+    <td>${c.Recency_Days}</td>
+  </tr>`).join('');
+
+/* ---------------- DATA EXPLORER ---------------- */
+function renderExplorer(){
+  const city = document.getElementById('ex-city').value;
+  const cat = document.getElementById('ex-category').value;
+  const gender = document.getElementById('ex-gender').value;
+  const rows = D.orders_raw.filter(r =>
+    (city==='all'||r.City===city) && (cat==='all'||r.Category===cat) && (gender==='all'||r.Gender===gender)
+  ).slice(0, 200);
+  document.getElementById('ex-count').textContent = `Showing ${rows.length} of ${D.orders_raw.length} orders (filtered)`;
+  document.querySelector('#table-orders tbody').innerHTML = rows.map(r=>`
+    <tr><td>${r.Order_ID}</td><td>${r.Order_Date}</td><td>${r.City}</td><td>${r.Category}</td><td>${r.Product}</td><td>${r.Quantity}</td><td>${fmtFull(r.Unit_Price)}</td><td>${fmtFull(r.Total_Sales)}</td></tr>
+  `).join('');
+}
+['ex-city','ex-category','ex-gender'].forEach(id=>document.getElementById(id).addEventListener('change', renderExplorer));
+
+/* ---------------- INIT ---------------- */
+renderOverview();
+renderExplorer();
+</script>
+</body>
+</html>

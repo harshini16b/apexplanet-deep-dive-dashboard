@@ -1,0 +1,948 @@
+Customer_ID,Customer_Name,City,Age,Gender,Last_Purchase,Frequency,Monetary,Avg_Order_Value,Fav_Category,Recency_Days,R_Score,F_Score,M_Score,RFM_Score,Segment
+CUST1004,Customer_191,Bengaluru,64,Female,2025-02-24,1,8321.54,8321.54,Electronics,312,1,1,1,3,Lost / Churned
+CUST1017,Customer_387,Pune,42,Female,2025-04-16,1,264230.68,264230.68,Fashion,261,2,1,4,7,Needs Attention
+CUST1026,Customer_445,Kolkata,65,Female,2025-09-29,1,164965.29,164965.29,Education,95,3,1,3,7,Loyal High-Value
+CUST1032,Customer_20,Pune,22,Female,2025-04-28,1,146990.9,146990.9,Electronics,249,2,1,3,6,Needs Attention
+CUST1038,Customer_454,Patna,32,Male,2025-05-06,1,37068.4,37068.4,Grocery,241,2,1,1,4,Lost / Churned
+CUST1049,Customer_243,Hyderabad,55,Female,2025-03-09,1,16714.64,16714.64,Education,299,1,1,1,3,Lost / Churned
+CUST1088,Customer_1,Patna,40,Male,2025-08-27,1,203819.75,203819.75,Fashion,128,3,1,3,7,Loyal High-Value
+CUST1090,Customer_316,Patna,45,Female,2025-12-31,1,5263.79,5263.79,Fashion,2,4,1,1,6,Recent Low-Engagement
+CUST1094,Customer_91,Patna,31,Female,2025-06-20,1,211945.9,211945.9,Electronics,196,2,1,3,6,Needs Attention
+CUST1104,Customer_328,Hyderabad,64,Female,2025-04-02,1,90746.36,90746.36,Education,275,1,1,2,4,Lost / Churned
+CUST1106,Customer_135,Patna,31,Male,2025-03-10,1,51838.36,51838.36,Grocery,298,1,1,2,4,Lost / Churned
+CUST1113,Customer_104,Gaya,33,Female,2025-03-05,1,181063.26,181063.26,Fashion,303,1,1,3,5,Needs Attention
+CUST1122,Customer_447,Kolkata,65,Female,2025-11-10,1,122431.8,122431.8,Grocery,53,4,1,3,8,Loyal High-Value
+CUST1124,Customer_360,Patna,18,Female,2025-06-08,1,362370.56,362370.56,Grocery,208,2,1,4,7,Needs Attention
+CUST1149,Customer_14,Hyderabad,40,Female,2025-09-17,1,340749.52,340749.52,Electronics,107,3,1,4,8,Loyal High-Value
+CUST1159,Customer_492,Pune,30,Male,2025-11-22,1,82567.7,82567.7,Electronics,41,4,1,2,7,Recent Low-Engagement
+CUST1170,Customer_67,Mumbai,37,Male,2025-02-24,1,103361.36,103361.36,Electronics,312,1,1,2,4,Lost / Churned
+CUST1175,Customer_472,Gaya,20,Female,2025-01-07,1,113673.3,113673.3,Fashion,360,1,1,3,5,Needs Attention
+CUST1183,Customer_189,Gaya,20,Female,2025-07-06,1,49324.8,49324.8,Furniture,180,3,1,2,6,Recent Low-Engagement
+CUST1189,Customer_490,Pune,39,Female,2025-08-30,1,36307.74,36307.74,Fashion,125,3,1,1,5,Recent Low-Engagement
+CUST1197,Customer_419,Pune,36,Male,2025-02-12,1,5944.12,5944.12,Education,324,1,1,1,3,Lost / Churned
+CUST1215,Customer_19,Gaya,35,Male,2025-01-26,1,10367.0,10367.0,Furniture,341,1,1,1,3,Lost / Churned
+CUST1231,Customer_339,Patna,53,Male,2026-01-01,1,187087.76,187087.76,Grocery,1,4,1,3,8,Loyal High-Value
+CUST1246,Customer_165,Kolkata,59,Female,2025-12-17,1,2094.36,2094.36,Electronics,16,4,1,1,6,Recent Low-Engagement
+CUST1252,Customer_81,Pune,24,Male,2025-03-02,1,112029.57,112029.57,Fashion,306,1,1,2,4,Lost / Churned
+CUST1253,Customer_334,Gaya,32,Female,2025-05-31,1,87892.59,87892.59,Electronics,216,2,1,2,5,Lost / Churned
+CUST1256,Customer_279,Kolkata,34,Male,2025-06-16,1,242289.7,242289.7,Electronics,200,2,1,4,7,Needs Attention
+CUST1258,Customer_443,Hyderabad,40,Male,2025-05-18,1,47389.09,47389.09,Electronics,229,2,1,1,4,Lost / Churned
+CUST1269,Customer_423,Gaya,22,Female,2025-06-30,1,80421.12,80421.12,Education,186,2,1,2,5,Lost / Churned
+CUST1284,Customer_375,Bengaluru,31,Male,2025-02-28,1,105461.08,105461.08,Electronics,308,1,1,2,4,Lost / Churned
+CUST1312,Customer_40,Kolkata,30,Male,2025-04-16,1,144194.72,144194.72,Electronics,261,2,1,3,6,Needs Attention
+CUST1316,Customer_3,Delhi,37,Female,2025-05-12,1,16249.69,16249.69,Electronics,235,2,1,1,4,Lost / Churned
+CUST1334,Customer_364,Kolkata,31,Male,2025-11-07,1,34200.58,34200.58,Fashion,56,4,1,1,6,Recent Low-Engagement
+CUST1339,Customer_107,Kolkata,54,Male,2025-07-31,1,203324.1,203324.1,Education,155,3,1,3,7,Loyal High-Value
+CUST1357,Customer_361,Delhi,48,Male,2025-02-13,1,195601.44,195601.44,Fashion,323,1,1,3,5,Needs Attention
+CUST1367,Customer_48,Bengaluru,21,Female,2025-05-04,1,43529.29,43529.29,Education,243,2,1,1,4,Lost / Churned
+CUST1396,Customer_479,Pune,34,Male,2025-08-12,1,21572.48,21572.48,Furniture,143,3,1,1,5,Recent Low-Engagement
+CUST1399,Customer_431,Gaya,60,Male,2025-01-28,1,74022.24,74022.24,Education,339,1,1,2,4,Lost / Churned
+CUST1401,Customer_151,Delhi,35,Male,2025-10-02,1,254734.06,254734.06,Grocery,92,3,1,4,8,Loyal High-Value
+CUST1406,Customer_499,Gaya,52,Male,2025-11-23,1,315765.0,315765.0,Fashion,40,4,1,4,9,Loyal High-Value
+CUST1419,Customer_226,Mumbai,28,Male,2025-06-12,1,54878.34,54878.34,Grocery,204,2,1,2,5,Lost / Churned
+CUST1433,Customer_391,Mumbai,47,Female,2025-12-04,1,108470.6,108470.6,Fashion,29,4,1,2,7,Recent Low-Engagement
+CUST1436,Customer_144,Delhi,60,Female,2025-11-27,1,19590.5,19590.5,Electronics,36,4,1,1,6,Recent Low-Engagement
+CUST1442,Customer_371,Pune,22,Female,2025-03-16,1,27918.98,27918.98,Education,292,1,1,1,3,Lost / Churned
+CUST1443,Customer_315,Patna,37,Female,2025-12-07,1,25336.7,25336.7,Grocery,26,4,1,1,6,Recent Low-Engagement
+CUST1452,Customer_68,Hyderabad,62,Female,2025-02-13,1,266207.48,266207.48,Fashion,323,1,1,4,6,Needs Attention
+CUST1453,Customer_60,Gaya,51,Male,2025-05-05,1,42816.6,42816.6,Fashion,242,2,1,1,4,Lost / Churned
+CUST1463,Customer_397,Bengaluru,21,Female,2025-08-19,2,173654.34000000003,86827.17000000001,Electronics,136,3,4,3,10,Champions
+CUST1468,Customer_266,Kolkata,49,Female,2025-07-07,1,359775.2,359775.2,Fashion,179,3,1,4,8,Loyal High-Value
+CUST1479,Customer_375,Bengaluru,35,Female,2025-08-06,1,317305.7,317305.7,Furniture,149,3,1,4,8,Loyal High-Value
+CUST1481,Customer_40,Patna,40,Female,2025-10-15,1,78764.8,78764.8,Furniture,79,4,1,2,7,Recent Low-Engagement
+CUST1516,Customer_148,Mumbai,52,Male,2025-05-07,1,199641.96,199641.96,Electronics,240,2,1,3,6,Needs Attention
+CUST1528,Customer_170,Patna,46,Male,2025-03-21,1,48389.92,48389.92,Electronics,287,1,1,2,4,Lost / Churned
+CUST1557,Customer_87,Mumbai,39,Female,2025-02-27,1,123371.82,123371.82,Furniture,309,1,1,3,5,Needs Attention
+CUST1565,Customer_353,Delhi,27,Female,2025-10-22,1,80289.8,80289.8,Education,72,4,1,2,7,Recent Low-Engagement
+CUST1577,Customer_59,Delhi,37,Male,2025-02-16,1,36943.51,36943.51,Fashion,320,1,1,1,3,Lost / Churned
+CUST1603,Customer_434,Mumbai,37,Female,2025-03-16,1,136560.28,136560.28,Electronics,292,1,1,3,5,Needs Attention
+CUST1611,Customer_451,Patna,49,Male,2025-11-05,1,46050.0,46050.0,Grocery,58,4,1,1,6,Recent Low-Engagement
+CUST1614,Customer_267,Bengaluru,52,Female,2025-02-13,1,74620.36,74620.36,Education,323,1,1,2,4,Lost / Churned
+CUST1616,Customer_288,Delhi,44,Female,2025-08-24,1,99704.97,99704.97,Electronics,131,3,1,2,6,Recent Low-Engagement
+CUST1618,Customer_166,Patna,41,Male,2025-09-27,1,158916.6,158916.6,Grocery,97,3,1,3,7,Loyal High-Value
+CUST1636,Customer_243,Patna,63,Female,2025-09-14,1,52698.94,52698.94,Furniture,110,3,1,2,6,Recent Low-Engagement
+CUST1637,Customer_70,Patna,59,Male,2025-12-20,1,20669.3,20669.3,Grocery,13,4,1,1,6,Recent Low-Engagement
+CUST1658,Customer_324,Hyderabad,52,Male,2025-06-04,1,193777.92,193777.92,Grocery,212,2,1,3,6,Needs Attention
+CUST1662,Customer_365,Pune,31,Female,2025-08-01,1,96526.71,96526.71,Education,154,3,1,2,6,Recent Low-Engagement
+CUST1673,Customer_103,Gaya,18,Male,2025-07-20,1,175604.15,175604.15,Grocery,166,3,1,3,7,Loyal High-Value
+CUST1681,Customer_160,Delhi,60,Male,2025-07-16,1,140328.85,140328.85,Fashion,170,3,1,3,7,Loyal High-Value
+CUST1691,Customer_177,Mumbai,55,Male,2025-10-08,1,14209.86,14209.86,Electronics,86,3,1,1,5,Recent Low-Engagement
+CUST1710,Customer_355,Hyderabad,46,Female,2025-09-17,1,440456.6,440456.6,Education,107,3,1,4,8,Loyal High-Value
+CUST1711,Customer_36,Bengaluru,20,Female,2025-07-13,1,490866.4,490866.4,Fashion,173,3,1,4,8,Loyal High-Value
+CUST1713,Customer_457,Bengaluru,27,Female,2025-08-08,1,31739.18,31739.18,Fashion,147,3,1,1,5,Recent Low-Engagement
+CUST1743,Customer_222,Hyderabad,56,Male,2025-09-08,1,161107.04,161107.04,Fashion,116,3,1,3,7,Loyal High-Value
+CUST1753,Customer_493,Hyderabad,58,Female,2025-05-21,1,3239.94,3239.94,Fashion,226,2,1,1,4,Lost / Churned
+CUST1758,Customer_335,Patna,61,Male,2025-10-14,1,299985.18,299985.18,Electronics,80,4,1,4,9,Loyal High-Value
+CUST1759,Customer_71,Delhi,64,Female,2025-08-13,1,109150.3,109150.3,Electronics,142,3,1,2,6,Recent Low-Engagement
+CUST1762,Customer_141,Delhi,27,Male,2025-07-29,1,123899.8,123899.8,Education,157,3,1,3,7,Loyal High-Value
+CUST1764,Customer_47,Hyderabad,24,Male,2025-12-23,1,51751.06,51751.06,Electronics,10,4,1,2,7,Recent Low-Engagement
+CUST1766,Customer_319,Kolkata,27,Male,2025-03-05,1,7119.05,7119.05,Electronics,303,1,1,1,3,Lost / Churned
+CUST1779,Customer_378,Delhi,65,Female,2025-06-03,1,166613.7,166613.7,Fashion,213,2,1,3,6,Needs Attention
+CUST1780,Customer_250,Hyderabad,64,Male,2025-05-31,1,105473.12,105473.12,Education,216,2,1,2,5,Lost / Churned
+CUST1790,Customer_12,Hyderabad,43,Male,2025-03-31,1,12225.22,12225.22,Electronics,277,1,1,1,3,Lost / Churned
+CUST1806,Customer_354,Patna,58,Male,2025-06-07,1,64332.45,64332.45,Furniture,209,2,1,2,5,Lost / Churned
+CUST1808,Customer_150,Patna,56,Male,2025-10-21,1,218701.12,218701.12,Furniture,73,4,1,4,9,Loyal High-Value
+CUST1822,Customer_174,Kolkata,39,Male,2025-10-07,1,121853.1,121853.1,Electronics,87,3,1,3,7,Loyal High-Value
+CUST1833,Customer_357,Gaya,63,Male,2025-12-28,1,111006.18,111006.18,Education,5,4,1,2,7,Recent Low-Engagement
+CUST1835,Customer_81,Gaya,61,Female,2025-12-25,1,64865.3,64865.3,Furniture,8,4,1,2,7,Recent Low-Engagement
+CUST1840,Customer_90,Kolkata,43,Female,2025-01-01,1,23787.6,23787.6,Electronics,366,1,1,1,3,Lost / Churned
+CUST1841,Customer_129,Kolkata,45,Male,2025-02-23,1,82193.5,82193.5,Education,313,1,1,2,4,Lost / Churned
+CUST1887,Customer_209,Hyderabad,21,Male,2025-09-26,1,277415.76,277415.76,Furniture,98,3,1,4,8,Loyal High-Value
+CUST1890,Customer_277,Gaya,21,Male,2025-03-25,1,129500.85,129500.85,Furniture,283,1,1,3,5,Needs Attention
+CUST1906,Customer_76,Hyderabad,36,Male,2025-12-01,1,40714.7,40714.7,Furniture,32,4,1,1,6,Recent Low-Engagement
+CUST1928,Customer_17,Mumbai,30,Female,2025-06-26,1,340497.71,340497.71,Electronics,190,2,1,4,7,Needs Attention
+CUST1932,Customer_369,Delhi,35,Male,2025-09-20,1,7741.12,7741.12,Electronics,104,3,1,1,5,Recent Low-Engagement
+CUST1936,Customer_15,Delhi,59,Male,2025-03-07,1,130702.11,130702.11,Electronics,301,1,1,3,5,Needs Attention
+CUST1940,Customer_40,Gaya,48,Male,2025-08-22,1,163606.7,163606.7,Fashion,133,3,1,3,7,Loyal High-Value
+CUST1956,Customer_317,Bengaluru,22,Female,2025-12-27,1,110614.05,110614.05,Fashion,6,4,1,2,7,Recent Low-Engagement
+CUST1960,Customer_367,Kolkata,44,Male,2025-06-04,1,285213.69,285213.69,Grocery,212,2,1,4,7,Needs Attention
+CUST1962,Customer_116,Delhi,23,Male,2025-03-17,1,55802.3,55802.3,Grocery,291,1,1,2,4,Lost / Churned
+CUST1987,Customer_35,Kolkata,24,Male,2025-12-29,1,58568.76,58568.76,Electronics,4,4,1,2,7,Recent Low-Engagement
+CUST1991,Customer_359,Kolkata,41,Female,2025-06-04,1,126402.03,126402.03,Education,212,2,1,3,6,Needs Attention
+CUST1994,Customer_390,Pune,48,Male,2025-12-26,2,238881.24,119440.62,Education,7,4,4,4,12,Champions
+CUST1997,Customer_219,Patna,29,Female,2025-11-06,2,136106.62,68053.31,Electronics,57,4,4,3,11,Champions
+CUST2003,Customer_48,Mumbai,35,Female,2025-08-01,1,47674.82,47674.82,Grocery,154,3,1,1,5,Recent Low-Engagement
+CUST2006,Customer_131,Kolkata,50,Male,2025-04-16,1,3310.72,3310.72,Education,261,2,1,1,4,Lost / Churned
+CUST2025,Customer_239,Delhi,37,Female,2025-11-01,1,98774.4,98774.4,Furniture,62,4,1,2,7,Recent Low-Engagement
+CUST2027,Customer_458,Gaya,32,Male,2025-06-02,1,121322.16,121322.16,Grocery,214,2,1,3,6,Needs Attention
+CUST2031,Customer_309,Gaya,45,Female,2025-02-08,1,34616.52,34616.52,Fashion,328,1,1,1,3,Lost / Churned
+CUST2039,Customer_32,Mumbai,31,Male,2025-02-24,1,231048.23,231048.23,Electronics,312,1,1,4,6,Needs Attention
+CUST2051,Customer_103,Bengaluru,31,Male,2025-02-09,1,109237.86,109237.86,Grocery,327,1,1,2,4,Lost / Churned
+CUST2062,Customer_254,Patna,58,Male,2025-09-09,1,493677.5,493677.5,Education,115,3,1,4,8,Loyal High-Value
+CUST2079,Customer_35,Mumbai,44,Male,2025-10-26,1,323841.07,323841.07,Furniture,68,4,1,4,9,Loyal High-Value
+CUST2088,Customer_382,Hyderabad,65,Female,2025-04-27,1,24428.2,24428.2,Education,250,2,1,1,4,Lost / Churned
+CUST2093,Customer_428,Mumbai,38,Female,2025-04-29,1,121791.05,121791.05,Electronics,248,2,1,3,6,Needs Attention
+CUST2094,Customer_165,Hyderabad,54,Female,2025-07-20,1,113543.48,113543.48,Education,166,3,1,3,7,Loyal High-Value
+CUST2126,Customer_385,Patna,34,Male,2025-04-14,1,21819.5,21819.5,Grocery,263,2,1,1,4,Lost / Churned
+CUST2137,Customer_57,Mumbai,40,Female,2025-04-05,1,91115.3,91115.3,Fashion,272,2,1,2,5,Lost / Churned
+CUST2138,Customer_303,Gaya,42,Female,2025-03-09,1,137878.74,137878.74,Grocery,299,1,1,3,5,Needs Attention
+CUST2152,Customer_99,Bengaluru,63,Female,2025-09-13,1,96867.4,96867.4,Electronics,111,3,1,2,6,Recent Low-Engagement
+CUST2157,Customer_31,Patna,58,Male,2025-03-30,1,86397.04,86397.04,Electronics,278,1,1,2,4,Lost / Churned
+CUST2181,Customer_125,Bengaluru,41,Female,2025-09-22,1,22401.12,22401.12,Grocery,102,3,1,1,5,Recent Low-Engagement
+CUST2190,Customer_318,Hyderabad,38,Male,2025-05-31,1,75639.4,75639.4,Grocery,216,2,1,2,5,Lost / Churned
+CUST2202,Customer_26,Patna,26,Female,2025-07-20,1,80260.42,80260.42,Furniture,166,3,1,2,6,Recent Low-Engagement
+CUST2218,Customer_392,Delhi,57,Male,2025-05-26,1,63231.28,63231.28,Furniture,221,2,1,2,5,Lost / Churned
+CUST2231,Customer_38,Delhi,51,Male,2025-05-12,1,1144.78,1144.78,Electronics,235,2,1,1,4,Lost / Churned
+CUST2236,Customer_173,Pune,64,Male,2025-07-22,1,26010.12,26010.12,Electronics,164,3,1,1,5,Recent Low-Engagement
+CUST2242,Customer_331,Delhi,53,Female,2025-11-24,1,349767.9,349767.9,Electronics,39,4,1,4,9,Loyal High-Value
+CUST2256,Customer_284,Hyderabad,50,Male,2025-02-20,1,115969.35,115969.35,Fashion,316,1,1,3,5,Needs Attention
+CUST2260,Customer_325,Kolkata,54,Male,2025-01-31,1,11539.95,11539.95,Electronics,336,1,1,1,3,Lost / Churned
+CUST2286,Customer_298,Patna,39,Female,2025-12-22,1,36304.28,36304.28,Electronics,11,4,1,1,6,Recent Low-Engagement
+CUST2290,Customer_195,Mumbai,56,Male,2025-03-17,1,48677.96,48677.96,Education,291,1,1,2,4,Lost / Churned
+CUST2295,Customer_319,Mumbai,57,Male,2025-11-04,1,238983.9,238983.9,Education,59,4,1,4,9,Loyal High-Value
+CUST2343,Customer_39,Patna,28,Male,2026-01-01,1,98080.92,98080.92,Electronics,1,4,1,2,7,Recent Low-Engagement
+CUST2345,Customer_302,Bengaluru,48,Male,2025-09-09,1,224371.6,224371.6,Education,115,3,1,4,8,Loyal High-Value
+CUST2350,Customer_205,Pune,46,Male,2025-11-08,1,101171.88,101171.88,Electronics,55,4,1,2,7,Recent Low-Engagement
+CUST2364,Customer_290,Hyderabad,34,Female,2025-07-22,1,83149.52,83149.52,Grocery,164,3,1,2,6,Recent Low-Engagement
+CUST2369,Customer_259,Mumbai,56,Male,2025-07-29,1,64307.52,64307.52,Furniture,157,3,1,2,6,Recent Low-Engagement
+CUST2378,Customer_95,Hyderabad,53,Male,2025-07-08,1,19026.35,19026.35,Fashion,178,3,1,1,5,Recent Low-Engagement
+CUST2384,Customer_365,Gaya,49,Male,2025-02-10,1,30394.74,30394.74,Electronics,326,1,1,1,3,Lost / Churned
+CUST2394,Customer_293,Patna,27,Male,2025-06-30,1,299334.78,299334.78,Grocery,186,2,1,4,7,Needs Attention
+CUST2403,Customer_258,Pune,22,Male,2025-05-17,1,237978.32,237978.32,Electronics,230,2,1,4,7,Needs Attention
+CUST2411,Customer_292,Mumbai,47,Female,2025-01-15,1,184045.4,184045.4,Electronics,352,1,1,3,5,Needs Attention
+CUST2418,Customer_425,Gaya,57,Male,2025-10-18,1,93055.86,93055.86,Furniture,76,4,1,2,7,Recent Low-Engagement
+CUST2423,Customer_376,Hyderabad,23,Male,2025-11-20,1,113778.84,113778.84,Electronics,43,4,1,3,8,Loyal High-Value
+CUST2428,Customer_127,Mumbai,52,Female,2025-12-16,1,48123.87,48123.87,Education,17,4,1,2,7,Recent Low-Engagement
+CUST2448,Customer_444,Kolkata,59,Female,2025-02-26,1,148803.66,148803.66,Furniture,310,1,1,3,5,Needs Attention
+CUST2457,Customer_462,Kolkata,51,Male,2025-01-30,1,43633.34,43633.34,Electronics,337,1,1,1,3,Lost / Churned
+CUST2463,Customer_390,Bengaluru,25,Male,2025-04-04,1,248328.55,248328.55,Electronics,273,1,1,4,6,Needs Attention
+CUST2480,Customer_491,Gaya,59,Female,2025-03-12,1,20740.93,20740.93,Fashion,296,1,1,1,3,Lost / Churned
+CUST2482,Customer_183,Mumbai,65,Male,2025-04-10,1,354730.14,354730.14,Education,267,2,1,4,7,Needs Attention
+CUST2515,Customer_470,Kolkata,65,Female,2025-12-09,3,431192.86,143730.95333333334,Electronics,24,4,4,4,12,Champions
+CUST2520,Customer_93,Kolkata,34,Female,2025-01-11,1,141401.85,141401.85,Electronics,356,1,1,3,5,Needs Attention
+CUST2537,Customer_32,Bengaluru,30,Female,2025-05-27,1,1005.21,1005.21,Electronics,220,2,1,1,4,Lost / Churned
+CUST2542,Customer_219,Hyderabad,43,Male,2025-11-05,1,431463.9,431463.9,Electronics,58,4,1,4,9,Loyal High-Value
+CUST2551,Customer_343,Patna,19,Male,2025-01-30,1,61673.9,61673.9,Education,337,1,1,2,4,Lost / Churned
+CUST2562,Customer_280,Bengaluru,65,Male,2025-10-22,1,437.34,437.34,Grocery,72,4,1,1,6,Recent Low-Engagement
+CUST2565,Customer_360,Hyderabad,52,Female,2025-08-25,1,146098.6,146098.6,Fashion,130,3,1,3,7,Loyal High-Value
+CUST2586,Customer_386,Pune,64,Male,2025-07-27,1,84954.25,84954.25,Electronics,159,3,1,2,6,Recent Low-Engagement
+CUST2589,Customer_426,Delhi,49,Male,2025-07-13,1,84392.92,84392.92,Electronics,173,3,1,2,6,Recent Low-Engagement
+CUST2597,Customer_354,Kolkata,22,Male,2025-08-03,1,287434.35,287434.35,Electronics,152,3,1,4,8,Loyal High-Value
+CUST2599,Customer_390,Mumbai,35,Male,2025-02-24,1,134115.7,134115.7,Electronics,312,1,1,3,5,Needs Attention
+CUST2604,Customer_356,Kolkata,40,Male,2025-01-24,1,51372.25,51372.25,Electronics,343,1,1,2,4,Lost / Churned
+CUST2632,Customer_321,Kolkata,56,Male,2025-01-07,1,67601.66,67601.66,Electronics,360,1,1,2,4,Lost / Churned
+CUST2644,Customer_222,Pune,24,Male,2025-07-06,1,175457.4,175457.4,Furniture,180,3,1,3,7,Loyal High-Value
+CUST2650,Customer_276,Kolkata,56,Female,2025-08-15,1,162226.4,162226.4,Furniture,140,3,1,3,7,Loyal High-Value
+CUST2661,Customer_370,Delhi,41,Male,2025-02-12,1,252904.44,252904.44,Electronics,324,1,1,4,6,Needs Attention
+CUST2669,Customer_151,Bengaluru,46,Male,2025-02-07,1,359291.92,359291.92,Electronics,329,1,1,4,6,Needs Attention
+CUST2671,Customer_58,Delhi,52,Male,2025-03-23,1,23398.57,23398.57,Fashion,285,1,1,1,3,Lost / Churned
+CUST2672,Customer_324,Pune,27,Female,2025-07-04,1,191186.12,191186.12,Electronics,182,2,1,3,6,Needs Attention
+CUST2680,Customer_90,Patna,65,Female,2025-07-30,1,124790.55,124790.55,Education,156,3,1,3,7,Loyal High-Value
+CUST2687,Customer_190,Hyderabad,64,Female,2025-10-23,1,49496.16,49496.16,Education,71,4,1,2,7,Recent Low-Engagement
+CUST2690,Customer_11,Delhi,26,Male,2025-11-16,1,66608.34,66608.34,Education,47,4,1,2,7,Recent Low-Engagement
+CUST2697,Customer_155,Hyderabad,49,Male,2025-08-08,1,83144.7,83144.7,Education,147,3,1,2,6,Recent Low-Engagement
+CUST2705,Customer_117,Kolkata,55,Male,2025-10-25,1,124270.25,124270.25,Electronics,69,4,1,3,8,Loyal High-Value
+CUST2708,Customer_57,Delhi,52,Male,2025-03-21,1,189759.6,189759.6,Education,287,1,1,3,5,Needs Attention
+CUST2714,Customer_98,Gaya,58,Female,2025-04-23,1,202444.83,202444.83,Furniture,254,2,1,3,6,Needs Attention
+CUST2742,Customer_216,Delhi,22,Female,2025-04-05,1,107330.05,107330.05,Grocery,272,2,1,2,5,Lost / Churned
+CUST2744,Customer_300,Bengaluru,28,Male,2025-04-23,1,76084.8,76084.8,Electronics,254,2,1,2,5,Lost / Churned
+CUST2757,Customer_366,Patna,55,Male,2025-12-23,1,64048.05,64048.05,Electronics,10,4,1,2,7,Recent Low-Engagement
+CUST2777,Customer_417,Gaya,49,Male,2025-02-28,1,174736.89,174736.89,Electronics,308,1,1,3,5,Needs Attention
+CUST2779,Customer_336,Patna,44,Female,2025-12-23,1,178648.82,178648.82,Grocery,10,4,1,3,8,Loyal High-Value
+CUST2791,Customer_20,Bengaluru,58,Female,2025-12-07,1,246944.64,246944.64,Electronics,26,4,1,4,9,Loyal High-Value
+CUST2793,Customer_462,Gaya,32,Female,2025-09-23,1,115263.96,115263.96,Electronics,101,3,1,3,7,Loyal High-Value
+CUST2794,Customer_98,Patna,31,Female,2025-12-18,2,284872.06,142436.03,Electronics,15,4,4,4,12,Champions
+CUST2796,Customer_471,Patna,29,Male,2025-09-18,1,147307.52,147307.52,Education,106,3,1,3,7,Loyal High-Value
+CUST2804,Customer_115,Pune,32,Female,2025-04-03,1,90508.14,90508.14,Electronics,274,1,1,2,4,Lost / Churned
+CUST2812,Customer_249,Gaya,55,Male,2025-05-29,1,767.61,767.61,Furniture,218,2,1,1,4,Lost / Churned
+CUST2827,Customer_287,Hyderabad,35,Male,2025-08-01,1,84805.75,84805.75,Education,154,3,1,2,6,Recent Low-Engagement
+CUST2832,Customer_204,Pune,22,Male,2025-02-13,1,162512.76,162512.76,Furniture,323,1,1,3,5,Needs Attention
+CUST2834,Customer_98,Kolkata,41,Male,2025-04-12,1,270821.34,270821.34,Grocery,265,2,1,4,7,Needs Attention
+CUST2835,Customer_468,Kolkata,41,Male,2025-06-26,1,65413.26,65413.26,Furniture,190,2,1,2,5,Lost / Churned
+CUST2836,Customer_434,Patna,46,Female,2025-11-07,1,144754.88,144754.88,Fashion,56,4,1,3,8,Loyal High-Value
+CUST2859,Customer_395,Kolkata,21,Female,2025-12-11,1,161565.2,161565.2,Grocery,22,4,1,3,8,Loyal High-Value
+CUST2862,Customer_122,Bengaluru,25,Male,2025-09-21,1,74724.16,74724.16,Grocery,103,3,1,2,6,Recent Low-Engagement
+CUST2863,Customer_375,Patna,34,Female,2025-02-10,1,132772.22,132772.22,Electronics,326,1,1,3,5,Needs Attention
+CUST2867,Customer_221,Hyderabad,61,Male,2025-12-27,1,257759.6,257759.6,Fashion,6,4,1,4,9,Loyal High-Value
+CUST2870,Customer_495,Patna,33,Male,2025-10-15,2,211801.52,105900.76,Education,79,4,4,3,11,Champions
+CUST2871,Customer_8,Delhi,33,Female,2025-09-18,1,147500.76,147500.76,Furniture,106,3,1,3,7,Loyal High-Value
+CUST2903,Customer_122,Mumbai,31,Female,2025-10-04,1,107774.59,107774.59,Education,90,3,1,2,6,Recent Low-Engagement
+CUST2904,Customer_269,Bengaluru,60,Female,2025-08-13,1,412680.6,412680.6,Fashion,142,3,1,4,8,Loyal High-Value
+CUST2921,Customer_420,Patna,27,Male,2025-03-12,1,139876.08,139876.08,Fashion,296,1,1,3,5,Needs Attention
+CUST2935,Customer_26,Delhi,28,Male,2025-02-04,1,30364.5,30364.5,Electronics,332,1,1,1,3,Lost / Churned
+CUST2953,Customer_435,Kolkata,41,Female,2025-02-24,1,220868.4,220868.4,Grocery,312,1,1,4,6,Needs Attention
+CUST2956,Customer_177,Patna,39,Male,2025-10-04,1,132611.45,132611.45,Furniture,90,3,1,3,7,Loyal High-Value
+CUST2967,Customer_483,Mumbai,52,Female,2025-07-11,1,36396.7,36396.7,Furniture,175,3,1,1,5,Recent Low-Engagement
+CUST2969,Customer_287,Kolkata,59,Male,2025-05-04,1,237972.6,237972.6,Grocery,243,2,1,4,7,Needs Attention
+CUST2997,Customer_181,Hyderabad,23,Female,2025-09-14,1,34192.3,34192.3,Electronics,110,3,1,1,5,Recent Low-Engagement
+CUST3001,Customer_341,Gaya,32,Male,2025-09-07,2,14067.77,7033.885,Education,117,3,4,1,8,Needs Attention
+CUST3002,Customer_57,Mumbai,61,Male,2025-11-19,1,219937.28,219937.28,Education,44,4,1,4,9,Loyal High-Value
+CUST3004,Customer_162,Pune,46,Female,2025-05-08,1,3971.35,3971.35,Fashion,239,2,1,1,4,Lost / Churned
+CUST3006,Customer_256,Patna,58,Male,2025-09-22,2,351367.34,175683.67,Furniture,102,3,4,4,11,Champions
+CUST3023,Customer_223,Gaya,43,Female,2025-09-07,1,368979.6,368979.6,Fashion,117,3,1,4,8,Loyal High-Value
+CUST3024,Customer_332,Patna,22,Female,2025-05-27,1,242884.38,242884.38,Electronics,220,2,1,4,7,Needs Attention
+CUST3044,Customer_27,Bengaluru,65,Female,2025-05-06,1,318554.4,318554.4,Grocery,241,2,1,4,7,Needs Attention
+CUST3054,Customer_96,Mumbai,28,Female,2025-05-30,1,63845.1,63845.1,Furniture,217,2,1,2,5,Lost / Churned
+CUST3059,Customer_104,Patna,36,Male,2025-03-27,1,234450.42,234450.42,Fashion,281,1,1,4,6,Needs Attention
+CUST3075,Customer_249,Bengaluru,55,Male,2025-02-13,1,8162.84,8162.84,Electronics,323,1,1,1,3,Lost / Churned
+CUST3078,Customer_230,Gaya,22,Male,2025-09-01,1,76256.64,76256.64,Grocery,123,3,1,2,6,Recent Low-Engagement
+CUST3080,Customer_378,Pune,41,Female,2025-05-03,1,43789.89,43789.89,Furniture,244,2,1,1,4,Lost / Churned
+CUST3089,Customer_339,Kolkata,35,Female,2025-12-16,1,139534.08,139534.08,Electronics,17,4,1,3,8,Loyal High-Value
+CUST3094,Customer_47,Bengaluru,49,Female,2025-07-22,1,343480.48,343480.48,Electronics,164,3,1,4,8,Loyal High-Value
+CUST3107,Customer_99,Kolkata,21,Female,2025-03-28,1,28766.56,28766.56,Electronics,280,1,1,1,3,Lost / Churned
+CUST3127,Customer_182,Bengaluru,63,Male,2025-10-14,1,139530.8,139530.8,Education,80,4,1,3,8,Loyal High-Value
+CUST3129,Customer_138,Hyderabad,39,Male,2025-10-04,1,376842.87,376842.87,Education,90,3,1,4,8,Loyal High-Value
+CUST3138,Customer_440,Mumbai,30,Female,2025-06-22,1,104971.05,104971.05,Grocery,194,2,1,2,5,Lost / Churned
+CUST3169,Customer_138,Delhi,41,Female,2025-12-20,1,138808.11,138808.11,Electronics,13,4,1,3,8,Loyal High-Value
+CUST3186,Customer_412,Delhi,60,Female,2025-03-23,1,156219.8,156219.8,Electronics,285,1,1,3,5,Needs Attention
+CUST3189,Customer_384,Kolkata,30,Female,2025-10-11,1,69219.64,69219.64,Education,83,3,1,2,6,Recent Low-Engagement
+CUST3194,Customer_114,Kolkata,34,Male,2025-01-22,1,51591.1,51591.1,Education,345,1,1,2,4,Lost / Churned
+CUST3210,Customer_15,Mumbai,43,Female,2025-01-14,1,122561.37,122561.37,Electronics,353,1,1,3,5,Needs Attention
+CUST3212,Customer_415,Gaya,33,Male,2025-08-09,1,42764.32,42764.32,Grocery,146,3,1,1,5,Recent Low-Engagement
+CUST3228,Customer_209,Patna,55,Female,2025-05-02,1,283052.58,283052.58,Furniture,245,2,1,4,7,Needs Attention
+CUST3237,Customer_341,Kolkata,48,Female,2025-12-15,1,270087.16,270087.16,Grocery,18,4,1,4,9,Loyal High-Value
+CUST3260,Customer_237,Mumbai,55,Male,2025-12-28,1,110900.34,110900.34,Education,5,4,1,2,7,Recent Low-Engagement
+CUST3264,Customer_227,Gaya,51,Female,2025-12-03,1,42437.1,42437.1,Electronics,30,4,1,1,6,Recent Low-Engagement
+CUST3265,Customer_256,Gaya,29,Male,2025-10-20,1,97693.35,97693.35,Grocery,74,4,1,2,7,Recent Low-Engagement
+CUST3277,Customer_148,Gaya,46,Female,2025-01-16,1,190335.12,190335.12,Electronics,351,1,1,3,5,Needs Attention
+CUST3281,Customer_243,Pune,64,Female,2025-10-01,1,190106.9,190106.9,Electronics,93,3,1,3,7,Loyal High-Value
+CUST3285,Customer_232,Mumbai,30,Female,2025-06-03,1,392423.76,392423.76,Electronics,213,2,1,4,7,Needs Attention
+CUST3297,Customer_465,Gaya,47,Male,2025-05-10,1,40350.67,40350.67,Electronics,237,2,1,1,4,Lost / Churned
+CUST3298,Customer_155,Kolkata,63,Female,2025-07-13,1,72667.0,72667.0,Grocery,173,3,1,2,6,Recent Low-Engagement
+CUST3316,Customer_458,Patna,41,Female,2025-04-13,1,261998.08,261998.08,Education,264,2,1,4,7,Needs Attention
+CUST3321,Customer_151,Bengaluru,20,Female,2025-07-12,1,62003.61,62003.61,Electronics,174,3,1,2,6,Recent Low-Engagement
+CUST3327,Customer_94,Pune,19,Female,2025-11-20,1,90435.84,90435.84,Electronics,43,4,1,2,7,Recent Low-Engagement
+CUST3330,Customer_450,Hyderabad,62,Female,2025-06-28,1,162554.32,162554.32,Electronics,188,2,1,3,6,Needs Attention
+CUST3341,Customer_263,Gaya,54,Male,2025-09-30,1,186519.72,186519.72,Electronics,94,3,1,3,7,Loyal High-Value
+CUST3345,Customer_202,Gaya,35,Female,2025-02-12,1,58809.5,58809.5,Education,324,1,2,2,5,Lost / Churned
+CUST3365,Customer_80,Delhi,23,Male,2025-08-25,1,119390.88,119390.88,Electronics,130,3,2,3,8,Loyal High-Value
+CUST3366,Customer_363,Delhi,55,Male,2025-10-31,2,360570.11,180285.055,Electronics,63,4,4,4,12,Champions
+CUST3393,Customer_175,Hyderabad,24,Female,2025-09-09,1,108717.45,108717.45,Electronics,115,3,2,2,7,Recent Low-Engagement
+CUST3397,Customer_101,Gaya,44,Male,2025-03-08,1,26461.65,26461.65,Furniture,300,1,2,1,4,Lost / Churned
+CUST3417,Customer_102,Patna,36,Male,2025-02-08,1,252084.4,252084.4,Electronics,328,1,2,4,7,Needs Attention
+CUST3418,Customer_499,Gaya,33,Female,2025-05-28,1,1229.02,1229.02,Electronics,219,2,2,1,5,Lost / Churned
+CUST3430,Customer_184,Kolkata,51,Female,2025-07-10,1,215754.42,215754.42,Electronics,176,3,2,4,9,Loyal High-Value
+CUST3438,Customer_98,Patna,56,Male,2025-11-12,1,148435.74,148435.74,Fashion,51,4,2,3,9,Loyal High-Value
+CUST3440,Customer_28,Pune,32,Female,2025-07-07,1,33098.3,33098.3,Electronics,179,3,2,1,6,Recent Low-Engagement
+CUST3459,Customer_320,Pune,19,Male,2025-08-01,1,88586.31,88586.31,Electronics,154,3,2,2,7,Recent Low-Engagement
+CUST3464,Customer_1,Bengaluru,18,Female,2025-05-04,1,172829.92,172829.92,Education,243,2,2,3,7,Needs Attention
+CUST3473,Customer_20,Hyderabad,56,Male,2025-03-16,1,18903.96,18903.96,Education,292,1,2,1,4,Lost / Churned
+CUST3497,Customer_408,Patna,57,Male,2025-05-11,1,119906.32,119906.32,Electronics,236,2,2,3,7,Needs Attention
+CUST3499,Customer_139,Mumbai,20,Male,2025-07-13,1,40383.06,40383.06,Furniture,173,3,2,1,6,Recent Low-Engagement
+CUST3508,Customer_67,Gaya,31,Male,2025-11-14,2,192315.52000000002,96157.76000000001,Electronics,49,4,4,3,11,Champions
+CUST3522,Customer_67,Bengaluru,24,Male,2025-01-20,1,30869.01,30869.01,Furniture,347,1,2,1,4,Lost / Churned
+CUST3537,Customer_377,Pune,24,Female,2025-04-17,1,141646.92,141646.92,Furniture,260,2,2,3,7,Needs Attention
+CUST3542,Customer_156,Patna,51,Male,2025-02-21,1,47618.43,47618.43,Electronics,315,1,2,1,4,Lost / Churned
+CUST3564,Customer_267,Patna,41,Male,2025-06-07,1,444513.78,444513.78,Grocery,209,2,2,4,8,Needs Attention
+CUST3566,Customer_430,Patna,45,Female,2025-02-16,1,178545.48,178545.48,Electronics,320,1,2,3,6,Needs Attention
+CUST3567,Customer_407,Bengaluru,21,Male,2025-07-09,1,300593.16,300593.16,Furniture,177,3,2,4,9,Loyal High-Value
+CUST3576,Customer_397,Hyderabad,53,Male,2025-04-02,1,321187.65,321187.65,Electronics,275,1,2,4,7,Needs Attention
+CUST3580,Customer_60,Gaya,56,Female,2025-05-01,1,89124.8,89124.8,Electronics,246,2,2,2,6,Lost / Churned
+CUST3602,Customer_295,Pune,54,Male,2025-06-04,1,67401.84,67401.84,Electronics,212,2,2,2,6,Lost / Churned
+CUST3603,Customer_448,Delhi,56,Female,2025-04-26,1,15061.67,15061.67,Grocery,251,2,2,1,5,Lost / Churned
+CUST3607,Customer_266,Patna,64,Female,2025-09-29,1,105764.6,105764.6,Education,95,3,2,2,7,Recent Low-Engagement
+CUST3618,Customer_131,Pune,28,Male,2025-07-08,1,330723.9,330723.9,Electronics,178,3,2,4,9,Loyal High-Value
+CUST3623,Customer_1,Mumbai,35,Male,2025-07-03,1,338531.22,338531.22,Electronics,183,2,2,4,8,Needs Attention
+CUST3625,Customer_382,Kolkata,55,Female,2025-02-26,1,105841.56,105841.56,Electronics,310,1,2,2,5,Lost / Churned
+CUST3652,Customer_436,Hyderabad,59,Male,2025-10-19,1,21496.95,21496.95,Education,75,4,2,1,7,Recent Low-Engagement
+CUST3662,Customer_223,Hyderabad,34,Female,2025-01-15,1,14919.85,14919.85,Electronics,352,1,2,1,4,Lost / Churned
+CUST3668,Customer_415,Patna,63,Male,2025-11-01,1,280078.14,280078.14,Electronics,62,4,2,4,10,Loyal High-Value
+CUST3677,Customer_459,Patna,34,Female,2025-06-13,1,17041.21,17041.21,Fashion,203,2,2,1,5,Lost / Churned
+CUST3679,Customer_242,Patna,48,Male,2025-05-19,1,239465.0,239465.0,Fashion,228,2,2,4,8,Needs Attention
+CUST3682,Customer_132,Kolkata,56,Female,2025-11-13,1,144829.17,144829.17,Education,50,4,2,3,9,Loyal High-Value
+CUST3685,Customer_94,Delhi,23,Female,2025-10-26,1,35489.21,35489.21,Furniture,68,4,2,1,7,Recent Low-Engagement
+CUST3688,Customer_205,Bengaluru,38,Female,2025-02-05,1,213936.9,213936.9,Electronics,331,1,2,3,6,Needs Attention
+CUST3689,Customer_179,Delhi,44,Female,2025-06-07,2,542484.08,271242.04,Electronics,209,2,4,4,10,At-Risk High-Value
+CUST3690,Customer_413,Delhi,32,Female,2025-12-11,1,102479.94,102479.94,Education,22,4,2,2,8,Recent Low-Engagement
+CUST3714,Customer_295,Patna,37,Female,2025-09-04,1,165724.79,165724.79,Grocery,120,3,2,3,8,Loyal High-Value
+CUST3723,Customer_208,Kolkata,52,Male,2025-02-16,1,16453.6,16453.6,Electronics,320,1,2,1,4,Lost / Churned
+CUST3730,Customer_273,Patna,41,Female,2025-07-18,2,538633.97,269316.985,Furniture,168,3,4,4,11,Champions
+CUST3741,Customer_461,Mumbai,57,Female,2025-12-08,1,48583.48,48583.48,Electronics,25,4,2,2,8,Recent Low-Engagement
+CUST3744,Customer_2,Mumbai,20,Female,2025-06-01,1,93190.71,93190.71,Fashion,215,2,2,2,6,Lost / Churned
+CUST3745,Customer_138,Hyderabad,55,Female,2025-09-04,1,217666.56,217666.56,Electronics,120,3,2,4,9,Loyal High-Value
+CUST3747,Customer_322,Mumbai,47,Female,2025-03-08,1,23973.18,23973.18,Electronics,300,1,2,1,4,Lost / Churned
+CUST3751,Customer_270,Bengaluru,36,Male,2025-12-10,1,69239.88,69239.88,Fashion,23,4,2,2,8,Recent Low-Engagement
+CUST3759,Customer_313,Mumbai,65,Female,2025-04-10,1,301283.73,301283.73,Grocery,267,2,2,4,8,Needs Attention
+CUST3760,Customer_360,Bengaluru,63,Female,2025-09-05,1,41626.11,41626.11,Fashion,119,3,2,1,6,Recent Low-Engagement
+CUST3763,Customer_221,Delhi,32,Female,2025-12-04,2,294488.9,147244.45,Fashion,29,4,4,4,12,Champions
+CUST3767,Customer_470,Hyderabad,49,Female,2025-12-23,1,1981.7,1981.7,Furniture,10,4,2,1,7,Recent Low-Engagement
+CUST3773,Customer_336,Pune,41,Female,2025-07-23,2,412403.57999999996,206201.78999999998,Furniture,163,3,4,4,11,Champions
+CUST3778,Customer_96,Bengaluru,39,Female,2025-02-10,1,47848.0,47848.0,Fashion,326,1,2,1,4,Lost / Churned
+CUST3794,Customer_315,Hyderabad,35,Female,2025-07-11,1,103917.5,103917.5,Education,175,3,2,2,7,Recent Low-Engagement
+CUST3809,Customer_394,Gaya,44,Female,2025-11-23,1,51282.42,51282.42,Education,40,4,2,2,8,Recent Low-Engagement
+CUST3820,Customer_312,Delhi,48,Female,2025-05-10,1,100104.3,100104.3,Grocery,237,2,2,2,6,Lost / Churned
+CUST3835,Customer_256,Delhi,45,Male,2025-09-20,1,144095.7,144095.7,Education,104,3,2,3,8,Loyal High-Value
+CUST3839,Customer_274,Bengaluru,61,Male,2025-01-07,1,410547.2,410547.2,Electronics,360,1,2,4,7,Needs Attention
+CUST3843,Customer_209,Bengaluru,44,Female,2025-07-05,1,37727.1,37727.1,Electronics,181,2,2,1,5,Lost / Churned
+CUST3850,Customer_163,Kolkata,27,Female,2025-09-29,1,122047.5,122047.5,Furniture,95,3,2,3,8,Loyal High-Value
+CUST3851,Customer_487,Delhi,59,Male,2025-10-02,1,29862.4,29862.4,Electronics,92,3,2,1,6,Recent Low-Engagement
+CUST3867,Customer_54,Patna,41,Female,2025-04-27,1,25348.95,25348.95,Electronics,250,2,2,1,5,Lost / Churned
+CUST3877,Customer_133,Delhi,18,Male,2025-12-26,1,85323.78,85323.78,Electronics,7,4,2,2,8,Recent Low-Engagement
+CUST3887,Customer_371,Mumbai,56,Female,2025-10-26,1,169196.64,169196.64,Electronics,68,4,2,3,9,Loyal High-Value
+CUST3891,Customer_453,Mumbai,65,Male,2025-03-02,1,150743.16,150743.16,Electronics,306,1,2,3,6,Needs Attention
+CUST3911,Customer_304,Gaya,26,Female,2025-07-28,1,81607.25,81607.25,Fashion,158,3,2,2,7,Recent Low-Engagement
+CUST3948,Customer_465,Hyderabad,38,Male,2025-04-18,1,116728.5,116728.5,Furniture,259,2,2,3,7,Needs Attention
+CUST3952,Customer_71,Hyderabad,40,Female,2025-12-31,1,323527.23,323527.23,Electronics,2,4,2,4,10,Loyal High-Value
+CUST3966,Customer_338,Hyderabad,47,Female,2025-12-06,1,120078.24,120078.24,Furniture,27,4,2,3,9,Loyal High-Value
+CUST3972,Customer_336,Gaya,20,Male,2025-11-17,1,240883.83,240883.83,Grocery,46,4,2,4,10,Loyal High-Value
+CUST3987,Customer_126,Pune,55,Female,2025-03-25,1,330496.47,330496.47,Grocery,283,1,2,4,7,Needs Attention
+CUST4002,Customer_388,Gaya,18,Female,2025-05-03,1,234114.2,234114.2,Electronics,244,2,2,4,8,Needs Attention
+CUST4003,Customer_305,Bengaluru,54,Female,2025-03-30,1,468522.0,468522.0,Grocery,278,1,2,4,7,Needs Attention
+CUST4009,Customer_273,Hyderabad,18,Male,2025-01-26,1,43713.28,43713.28,Grocery,341,1,2,1,4,Lost / Churned
+CUST4034,Customer_271,Kolkata,32,Female,2025-06-30,1,85717.2,85717.2,Electronics,186,2,2,2,6,Lost / Churned
+CUST4037,Customer_205,Kolkata,30,Male,2025-05-05,1,470798.6,470798.6,Electronics,242,2,2,4,8,Needs Attention
+CUST4041,Customer_433,Bengaluru,32,Female,2025-10-12,2,173329.08,86664.54,Electronics,82,4,4,3,11,Champions
+CUST4062,Customer_23,Mumbai,56,Female,2025-05-10,1,8906.18,8906.18,Furniture,237,2,2,1,5,Lost / Churned
+CUST4073,Customer_353,Pune,25,Female,2025-05-18,1,92444.73,92444.73,Fashion,229,2,2,2,6,Lost / Churned
+CUST4077,Customer_138,Mumbai,50,Male,2025-08-04,1,109913.8,109913.8,Electronics,151,3,2,2,7,Recent Low-Engagement
+CUST4089,Customer_79,Gaya,42,Male,2025-12-18,1,112630.77,112630.77,Fashion,15,4,2,3,9,Loyal High-Value
+CUST4094,Customer_382,Hyderabad,51,Male,2025-05-31,1,178309.16,178309.16,Grocery,216,2,2,3,7,Needs Attention
+CUST4099,Customer_377,Delhi,55,Female,2025-08-04,1,208572.3,208572.3,Fashion,151,3,2,3,8,Loyal High-Value
+CUST4103,Customer_454,Pune,33,Male,2025-10-31,1,63588.21,63588.21,Grocery,63,4,2,2,8,Recent Low-Engagement
+CUST4106,Customer_226,Gaya,33,Male,2025-10-08,1,299498.92,299498.92,Grocery,86,3,2,4,9,Loyal High-Value
+CUST4109,Customer_31,Delhi,53,Female,2025-01-06,1,221067.8,221067.8,Grocery,361,1,2,4,7,Needs Attention
+CUST4110,Customer_73,Kolkata,59,Female,2025-02-07,1,360621.09,360621.09,Grocery,329,1,2,4,7,Needs Attention
+CUST4112,Customer_71,Kolkata,33,Female,2025-09-12,1,51766.12,51766.12,Fashion,112,3,2,2,7,Recent Low-Engagement
+CUST4132,Customer_47,Patna,41,Female,2025-04-01,1,7894.56,7894.56,Furniture,276,1,2,1,4,Lost / Churned
+CUST4137,Customer_221,Gaya,36,Male,2025-08-31,2,333360.55,166680.275,Electronics,124,3,4,4,11,Champions
+CUST4150,Customer_415,Delhi,31,Female,2025-03-26,1,359892.18,359892.18,Education,282,1,2,4,7,Needs Attention
+CUST4167,Customer_113,Kolkata,41,Female,2025-08-24,1,249899.04,249899.04,Electronics,131,3,2,4,9,Loyal High-Value
+CUST4169,Customer_307,Hyderabad,41,Female,2025-03-02,1,25982.0,25982.0,Grocery,306,1,2,1,4,Lost / Churned
+CUST4215,Customer_103,Delhi,28,Male,2025-07-21,1,110511.99,110511.99,Fashion,165,3,2,2,7,Recent Low-Engagement
+CUST4229,Customer_234,Hyderabad,51,Male,2025-08-24,1,136626.6,136626.6,Education,131,3,2,3,8,Loyal High-Value
+CUST4264,Customer_304,Patna,26,Female,2025-11-15,1,278427.28,278427.28,Electronics,48,4,2,4,10,Loyal High-Value
+CUST4269,Customer_268,Gaya,65,Female,2025-06-21,1,187463.04,187463.04,Electronics,195,2,2,3,7,Needs Attention
+CUST4270,Customer_266,Kolkata,30,Male,2025-12-09,1,458774.9,458774.9,Education,24,4,2,4,10,Loyal High-Value
+CUST4284,Customer_270,Patna,46,Male,2025-02-28,1,30640.69,30640.69,Electronics,308,1,2,1,4,Lost / Churned
+CUST4317,Customer_498,Delhi,50,Female,2025-04-17,1,144969.64,144969.64,Education,260,2,2,3,7,Needs Attention
+CUST4337,Customer_269,Kolkata,53,Female,2025-04-16,1,55976.48,55976.48,Electronics,261,2,2,2,6,Lost / Churned
+CUST4363,Customer_161,Delhi,30,Female,2025-11-30,1,401091.2,401091.2,Education,33,4,2,4,10,Loyal High-Value
+CUST4381,Customer_324,Kolkata,39,Female,2025-01-09,1,135764.76,135764.76,Electronics,358,1,2,3,6,Needs Attention
+CUST4391,Customer_214,Hyderabad,36,Male,2025-12-12,1,197421.55,197421.55,Electronics,21,4,2,3,9,Loyal High-Value
+CUST4414,Customer_194,Delhi,53,Female,2025-01-10,1,15617.29,15617.29,Education,357,1,2,1,4,Lost / Churned
+CUST4417,Customer_234,Mumbai,52,Male,2025-05-06,1,6280.83,6280.83,Electronics,241,2,2,1,5,Lost / Churned
+CUST4420,Customer_268,Gaya,38,Male,2025-08-18,1,13705.83,13705.83,Furniture,137,3,2,1,6,Recent Low-Engagement
+CUST4431,Customer_177,Gaya,19,Male,2025-06-29,1,30519.5,30519.5,Furniture,187,2,2,1,5,Lost / Churned
+CUST4438,Customer_133,Kolkata,56,Female,2025-02-20,1,29540.26,29540.26,Furniture,316,1,2,1,4,Lost / Churned
+CUST4457,Customer_212,Hyderabad,31,Female,2025-04-30,1,110260.04,110260.04,Electronics,247,2,2,2,6,Lost / Churned
+CUST4482,Customer_139,Pune,53,Male,2025-06-07,1,421025.22,421025.22,Electronics,209,2,2,4,8,Needs Attention
+CUST4483,Customer_109,Patna,63,Female,2025-07-27,1,370228.72,370228.72,Education,159,3,2,4,9,Loyal High-Value
+CUST4488,Customer_414,Kolkata,39,Female,2025-04-09,1,47539.35,47539.35,Electronics,268,2,2,1,5,Lost / Churned
+CUST4496,Customer_53,Bengaluru,18,Female,2025-03-12,1,333687.41,333687.41,Furniture,296,1,2,4,7,Needs Attention
+CUST4515,Customer_281,Hyderabad,48,Female,2025-07-28,1,78848.08,78848.08,Grocery,158,3,2,2,7,Recent Low-Engagement
+CUST4527,Customer_359,Mumbai,54,Male,2025-06-22,1,210037.8,210037.8,Education,194,2,2,3,7,Needs Attention
+CUST4532,Customer_68,Pune,52,Male,2025-02-27,1,210571.1,210571.1,Fashion,309,1,2,3,6,Needs Attention
+CUST4537,Customer_9,Gaya,63,Male,2025-09-02,1,167620.15,167620.15,Education,122,3,2,3,8,Loyal High-Value
+CUST4553,Customer_489,Kolkata,44,Female,2025-01-05,1,165937.8,165937.8,Furniture,362,1,2,3,6,Needs Attention
+CUST4559,Customer_466,Bengaluru,57,Female,2025-05-30,1,52501.23,52501.23,Electronics,217,2,2,2,6,Lost / Churned
+CUST4565,Customer_359,Delhi,65,Female,2025-12-07,1,23886.69,23886.69,Grocery,26,4,2,1,7,Recent Low-Engagement
+CUST4569,Customer_238,Patna,38,Male,2025-12-25,1,419975.28,419975.28,Electronics,8,4,2,4,10,Loyal High-Value
+CUST4584,Customer_138,Pune,18,Female,2025-10-14,1,462701.3,462701.3,Fashion,80,4,2,4,10,Loyal High-Value
+CUST4598,Customer_96,Patna,33,Female,2025-07-18,1,66336.0,66336.0,Fashion,168,3,2,2,7,Recent Low-Engagement
+CUST4601,Customer_82,Hyderabad,55,Female,2025-08-17,1,5053.68,5053.68,Education,138,3,2,1,6,Recent Low-Engagement
+CUST4602,Customer_150,Pune,26,Female,2025-11-30,1,6430.22,6430.22,Furniture,33,4,2,1,7,Recent Low-Engagement
+CUST4625,Customer_296,Gaya,25,Female,2025-02-22,1,306956.37,306956.37,Education,314,1,2,4,7,Needs Attention
+CUST4629,Customer_167,Patna,40,Female,2025-02-09,1,75833.37,75833.37,Electronics,327,1,2,2,5,Lost / Churned
+CUST4646,Customer_365,Bengaluru,36,Female,2025-12-25,1,190160.1,190160.1,Grocery,8,4,2,3,9,Loyal High-Value
+CUST4650,Customer_370,Delhi,32,Male,2025-11-07,1,143752.47,143752.47,Fashion,56,4,2,3,9,Loyal High-Value
+CUST4651,Customer_359,Kolkata,54,Male,2025-03-07,1,99449.28,99449.28,Electronics,301,1,2,2,5,Lost / Churned
+CUST4655,Customer_167,Kolkata,35,Male,2025-10-16,1,239811.81,239811.81,Fashion,78,4,2,4,10,Loyal High-Value
+CUST4673,Customer_386,Delhi,42,Female,2025-08-29,1,81396.85,81396.85,Fashion,126,3,2,2,7,Recent Low-Engagement
+CUST4685,Customer_22,Gaya,35,Male,2025-04-08,1,241032.51,241032.51,Grocery,269,2,2,4,8,Needs Attention
+CUST4686,Customer_473,Pune,27,Male,2025-06-18,1,290918.72,290918.72,Grocery,198,2,2,4,8,Needs Attention
+CUST4703,Customer_394,Patna,58,Male,2025-12-03,1,158544.6,158544.6,Electronics,30,4,2,3,9,Loyal High-Value
+CUST4705,Customer_53,Hyderabad,43,Female,2025-07-18,1,29838.32,29838.32,Fashion,168,3,2,1,6,Recent Low-Engagement
+CUST4706,Customer_34,Delhi,62,Female,2026-01-01,2,528036.44,264018.22,Electronics,1,4,4,4,12,Champions
+CUST4722,Customer_390,Bengaluru,63,Male,2025-10-23,1,217967.64,217967.64,Furniture,71,4,2,4,10,Loyal High-Value
+CUST4730,Customer_484,Patna,20,Female,2025-11-02,1,203288.64,203288.64,Electronics,61,4,2,3,9,Loyal High-Value
+CUST4737,Customer_367,Patna,22,Female,2025-09-11,1,180858.3,180858.3,Education,113,3,2,3,8,Loyal High-Value
+CUST4742,Customer_177,Kolkata,21,Male,2025-10-06,1,74556.42,74556.42,Electronics,88,3,2,2,7,Recent Low-Engagement
+CUST4747,Customer_193,Gaya,44,Male,2025-07-01,1,102099.33,102099.33,Electronics,185,2,2,2,6,Lost / Churned
+CUST4750,Customer_78,Delhi,42,Female,2025-09-02,1,95299.22,95299.22,Electronics,122,3,2,2,7,Recent Low-Engagement
+CUST4751,Customer_260,Patna,20,Male,2025-11-29,1,243462.6,243462.6,Grocery,34,4,2,4,10,Loyal High-Value
+CUST4756,Customer_15,Bengaluru,55,Female,2025-09-15,2,19079.68,9539.84,Education,109,3,4,1,8,Needs Attention
+CUST4758,Customer_372,Pune,63,Male,2025-07-24,1,66288.95,66288.95,Electronics,162,3,2,2,7,Recent Low-Engagement
+CUST4777,Customer_233,Gaya,60,Female,2025-05-13,1,21001.73,21001.73,Electronics,234,2,2,1,5,Lost / Churned
+CUST4796,Customer_380,Bengaluru,44,Male,2025-11-20,1,140365.9,140365.9,Grocery,43,4,2,3,9,Loyal High-Value
+CUST4810,Customer_416,Kolkata,18,Male,2025-05-10,1,97167.28,97167.28,Fashion,237,2,2,2,6,Lost / Churned
+CUST4824,Customer_98,Gaya,24,Male,2025-01-25,1,226245.78,226245.78,Electronics,342,1,2,4,7,Needs Attention
+CUST4829,Customer_202,Mumbai,19,Female,2025-09-13,1,333996.4,333996.4,Fashion,111,3,2,4,9,Loyal High-Value
+CUST4845,Customer_401,Mumbai,18,Male,2025-11-18,1,2599.12,2599.12,Furniture,45,4,2,1,7,Recent Low-Engagement
+CUST4849,Customer_209,Patna,28,Male,2025-01-05,1,28812.06,28812.06,Grocery,362,1,2,1,4,Lost / Churned
+CUST4869,Customer_392,Kolkata,37,Male,2025-07-28,1,485667.8,485667.8,Electronics,158,3,2,4,9,Loyal High-Value
+CUST4881,Customer_389,Patna,32,Male,2025-08-09,1,5629.1,5629.1,Education,146,3,2,1,6,Recent Low-Engagement
+CUST4888,Customer_13,Pune,38,Male,2025-06-14,1,40275.15,40275.15,Fashion,202,2,2,1,5,Lost / Churned
+CUST4901,Customer_327,Mumbai,29,Female,2025-11-14,1,47545.23,47545.23,Grocery,49,4,2,1,7,Recent Low-Engagement
+CUST4926,Customer_102,Delhi,45,Male,2025-11-26,1,13050.5,13050.5,Education,37,4,2,1,7,Recent Low-Engagement
+CUST4934,Customer_25,Bengaluru,41,Male,2025-03-12,1,318588.55,318588.55,Grocery,296,1,2,4,7,Needs Attention
+CUST4941,Customer_457,Mumbai,50,Female,2025-01-31,1,60395.06,60395.06,Furniture,336,1,2,2,5,Lost / Churned
+CUST4943,Customer_198,Mumbai,34,Male,2025-05-11,1,12420.48,12420.48,Grocery,236,2,2,1,5,Lost / Churned
+CUST4947,Customer_352,Bengaluru,58,Male,2025-01-09,1,37605.65,37605.65,Furniture,358,1,2,1,4,Lost / Churned
+CUST4958,Customer_160,Gaya,45,Male,2025-06-19,1,25717.95,25717.95,Grocery,197,2,2,1,5,Lost / Churned
+CUST4966,Customer_367,Bengaluru,47,Female,2025-08-26,1,8286.54,8286.54,Furniture,129,3,2,1,6,Recent Low-Engagement
+CUST4973,Customer_443,Kolkata,24,Male,2025-09-18,1,42500.65,42500.65,Fashion,106,3,2,1,6,Recent Low-Engagement
+CUST4977,Customer_359,Mumbai,33,Male,2025-01-19,1,200969.45,200969.45,Furniture,348,1,2,3,6,Needs Attention
+CUST4979,Customer_273,Mumbai,45,Male,2025-06-16,1,51456.6,51456.6,Education,200,2,2,2,6,Lost / Churned
+CUST4982,Customer_370,Delhi,33,Male,2025-06-10,1,439972.2,439972.2,Electronics,206,2,2,4,8,Needs Attention
+CUST4996,Customer_449,Hyderabad,61,Female,2025-12-21,2,257757.48,128878.74,Education,12,4,4,4,12,Champions
+CUST4997,Customer_371,Hyderabad,31,Male,2025-07-21,1,45063.04,45063.04,Education,165,3,2,1,6,Recent Low-Engagement
+CUST5005,Customer_176,Kolkata,20,Female,2025-12-19,1,174940.92,174940.92,Education,14,4,2,3,9,Loyal High-Value
+CUST5010,Customer_46,Pune,41,Female,2025-07-29,1,124324.34,124324.34,Grocery,157,3,2,3,8,Loyal High-Value
+CUST5025,Customer_159,Patna,28,Female,2025-05-04,1,20875.52,20875.52,Education,243,2,2,1,5,Lost / Churned
+CUST5036,Customer_468,Patna,32,Male,2025-03-03,1,299490.08,299490.08,Furniture,305,1,2,4,7,Needs Attention
+CUST5057,Customer_158,Patna,52,Female,2025-06-08,1,30227.94,30227.94,Fashion,208,2,2,1,5,Lost / Churned
+CUST5063,Customer_50,Mumbai,33,Female,2025-05-13,1,15831.03,15831.03,Electronics,234,2,2,1,5,Lost / Churned
+CUST5079,Customer_348,Bengaluru,41,Female,2025-10-22,1,267836.96,267836.96,Furniture,72,4,2,4,10,Loyal High-Value
+CUST5091,Customer_375,Bengaluru,47,Male,2025-02-19,1,213995.1,213995.1,Grocery,317,1,2,3,6,Needs Attention
+CUST5097,Customer_302,Mumbai,65,Female,2025-05-09,1,185571.72,185571.72,Electronics,238,2,2,3,7,Needs Attention
+CUST5102,Customer_416,Hyderabad,41,Female,2025-04-20,1,78808.86,78808.86,Education,257,2,2,2,6,Lost / Churned
+CUST5113,Customer_271,Kolkata,30,Female,2025-02-16,1,199283.0,199283.0,Electronics,320,1,2,3,6,Needs Attention
+CUST5128,Customer_192,Bengaluru,47,Male,2025-04-01,1,242216.48,242216.48,Grocery,276,1,2,4,7,Needs Attention
+CUST5129,Customer_404,Bengaluru,54,Male,2025-09-17,1,219522.18,219522.18,Education,107,3,2,4,9,Loyal High-Value
+CUST5133,Customer_86,Pune,56,Female,2025-08-09,1,19382.82,19382.82,Electronics,146,3,2,1,6,Recent Low-Engagement
+CUST5136,Customer_257,Mumbai,30,Male,2025-08-30,1,16506.48,16506.48,Grocery,125,3,2,1,6,Recent Low-Engagement
+CUST5151,Customer_409,Bengaluru,55,Female,2025-07-04,1,86394.66,86394.66,Grocery,182,2,2,2,6,Lost / Churned
+CUST5154,Customer_453,Mumbai,20,Male,2025-01-13,1,76131.68,76131.68,Education,354,1,2,2,5,Lost / Churned
+CUST5155,Customer_165,Bengaluru,57,Male,2025-02-08,1,172543.0,172543.0,Electronics,328,1,2,3,6,Needs Attention
+CUST5160,Customer_144,Delhi,52,Female,2025-12-24,1,1961.91,1961.91,Education,9,4,2,1,7,Recent Low-Engagement
+CUST5168,Customer_295,Hyderabad,25,Male,2025-06-05,1,54797.1,54797.1,Electronics,211,2,2,2,6,Lost / Churned
+CUST5178,Customer_170,Mumbai,23,Male,2025-06-01,1,109792.04,109792.04,Education,215,2,2,2,6,Lost / Churned
+CUST5188,Customer_286,Gaya,53,Male,2025-02-08,1,439499.43,439499.43,Electronics,328,1,2,4,7,Needs Attention
+CUST5206,Customer_327,Patna,52,Female,2025-12-22,1,65107.76,65107.76,Education,11,4,2,2,8,Recent Low-Engagement
+CUST5211,Customer_215,Patna,53,Female,2025-03-18,1,191167.55,191167.55,Education,290,1,2,3,6,Needs Attention
+CUST5214,Customer_142,Patna,63,Female,2025-06-19,1,86438.08,86438.08,Furniture,197,2,2,2,6,Lost / Churned
+CUST5232,Customer_395,Gaya,54,Male,2025-02-13,1,62434.24,62434.24,Electronics,323,1,2,2,5,Lost / Churned
+CUST5233,Customer_108,Mumbai,26,Male,2025-09-08,1,48906.12,48906.12,Education,116,3,2,2,7,Recent Low-Engagement
+CUST5240,Customer_379,Patna,43,Male,2025-10-06,1,92846.81,92846.81,Electronics,88,3,2,2,7,Recent Low-Engagement
+CUST5244,Customer_44,Pune,41,Male,2025-03-27,1,207547.7,207547.7,Grocery,281,1,2,3,6,Needs Attention
+CUST5249,Customer_236,Pune,57,Male,2025-12-05,1,116373.8,116373.8,Fashion,28,4,2,3,9,Loyal High-Value
+CUST5295,Customer_223,Kolkata,58,Female,2025-07-30,1,120358.95,120358.95,Education,156,3,2,3,8,Loyal High-Value
+CUST5318,Customer_376,Bengaluru,61,Male,2025-06-06,1,93084.36,93084.36,Fashion,210,2,2,2,6,Lost / Churned
+CUST5319,Customer_129,Mumbai,35,Female,2025-11-18,1,138242.6,138242.6,Electronics,45,4,2,3,9,Loyal High-Value
+CUST5338,Customer_269,Patna,22,Female,2025-05-29,1,140731.05,140731.05,Fashion,218,2,2,3,7,Needs Attention
+CUST5355,Customer_108,Delhi,23,Male,2025-03-20,1,47542.0,47542.0,Grocery,288,1,2,1,4,Lost / Churned
+CUST5363,Customer_423,Delhi,56,Male,2025-11-18,2,265314.63,132657.315,Fashion,45,4,4,4,12,Champions
+CUST5367,Customer_499,Hyderabad,25,Female,2025-09-01,1,35099.34,35099.34,Education,123,3,2,1,6,Recent Low-Engagement
+CUST5373,Customer_256,Delhi,24,Male,2025-10-16,1,25737.43,25737.43,Fashion,78,4,2,1,7,Recent Low-Engagement
+CUST5375,Customer_265,Bengaluru,60,Male,2025-03-11,1,36587.92,36587.92,Education,297,1,2,1,4,Lost / Churned
+CUST5386,Customer_125,Gaya,47,Male,2025-05-16,1,244476.54,244476.54,Grocery,231,2,2,4,8,Needs Attention
+CUST5389,Customer_362,Mumbai,44,Female,2025-11-27,1,58707.36,58707.36,Fashion,36,4,2,2,8,Recent Low-Engagement
+CUST5406,Customer_164,Kolkata,30,Male,2025-09-12,1,47545.65,47545.65,Electronics,112,3,2,1,6,Recent Low-Engagement
+CUST5413,Customer_20,Bengaluru,62,Male,2025-12-13,1,217109.48,217109.48,Electronics,20,4,2,4,10,Loyal High-Value
+CUST5415,Customer_460,Delhi,29,Female,2025-10-31,1,12121.61,12121.61,Fashion,63,4,2,1,7,Recent Low-Engagement
+CUST5418,Customer_491,Kolkata,41,Female,2025-08-17,1,177852.72,177852.72,Education,138,3,2,3,8,Loyal High-Value
+CUST5419,Customer_263,Patna,65,Female,2025-09-20,1,7179.39,7179.39,Education,104,3,2,1,6,Recent Low-Engagement
+CUST5430,Customer_333,Mumbai,48,Male,2025-06-29,1,138761.82,138761.82,Fashion,187,2,2,3,7,Needs Attention
+CUST5431,Customer_396,Mumbai,60,Female,2025-01-20,1,215478.9,215478.9,Electronics,347,1,2,4,7,Needs Attention
+CUST5432,Customer_163,Patna,57,Male,2025-11-08,1,15571.2,15571.2,Fashion,55,4,2,1,7,Recent Low-Engagement
+CUST5433,Customer_355,Delhi,49,Male,2025-01-17,1,100010.88,100010.88,Education,350,1,2,2,5,Lost / Churned
+CUST5454,Customer_368,Hyderabad,19,Female,2025-01-23,1,308555.0,308555.0,Furniture,344,1,2,4,7,Needs Attention
+CUST5455,Customer_287,Bengaluru,26,Male,2025-03-17,1,86715.66,86715.66,Furniture,291,1,2,2,5,Lost / Churned
+CUST5468,Customer_463,Bengaluru,32,Male,2025-11-16,1,299131.56,299131.56,Electronics,47,4,2,4,10,Loyal High-Value
+CUST5477,Customer_249,Kolkata,37,Female,2025-10-10,1,284448.64,284448.64,Electronics,84,3,2,4,9,Loyal High-Value
+CUST5505,Customer_189,Bengaluru,38,Female,2025-01-10,1,210141.3,210141.3,Education,357,1,2,3,6,Needs Attention
+CUST5516,Customer_343,Kolkata,21,Male,2025-04-21,1,211333.38,211333.38,Grocery,256,2,2,3,7,Needs Attention
+CUST5523,Customer_432,Pune,41,Male,2025-10-03,1,277513.83,277513.83,Furniture,91,3,2,4,9,Loyal High-Value
+CUST5524,Customer_154,Hyderabad,44,Male,2025-10-15,1,128419.56,128419.56,Furniture,79,4,2,3,9,Loyal High-Value
+CUST5529,Customer_227,Bengaluru,30,Female,2025-02-25,1,19808.39,19808.39,Grocery,311,1,2,1,4,Lost / Churned
+CUST5535,Customer_146,Gaya,28,Male,2025-10-17,1,81639.9,81639.9,Grocery,77,4,2,2,8,Recent Low-Engagement
+CUST5569,Customer_188,Pune,27,Female,2025-11-22,1,105715.35,105715.35,Fashion,41,4,2,2,8,Recent Low-Engagement
+CUST5585,Customer_289,Kolkata,35,Male,2025-08-03,1,258727.23,258727.23,Furniture,152,3,2,4,9,Loyal High-Value
+CUST5600,Customer_176,Bengaluru,27,Male,2025-06-26,1,143878.14,143878.14,Grocery,190,2,2,3,7,Needs Attention
+CUST5605,Customer_23,Kolkata,30,Female,2025-08-16,1,126051.16,126051.16,Fashion,139,3,2,3,8,Loyal High-Value
+CUST5607,Customer_265,Gaya,61,Female,2025-08-21,1,13129.64,13129.64,Grocery,134,3,2,1,6,Recent Low-Engagement
+CUST5615,Customer_56,Bengaluru,63,Female,2025-06-14,1,7583.96,7583.96,Grocery,202,2,2,1,5,Lost / Churned
+CUST5621,Customer_427,Delhi,62,Female,2025-10-14,1,134832.67,134832.67,Fashion,80,4,2,3,9,Loyal High-Value
+CUST5624,Customer_25,Patna,22,Male,2025-11-27,1,319922.96,319922.96,Electronics,36,4,2,4,10,Loyal High-Value
+CUST5702,Customer_381,Pune,48,Female,2025-07-11,1,139084.8,139084.8,Education,175,3,2,3,8,Loyal High-Value
+CUST5718,Customer_251,Kolkata,62,Female,2025-07-01,1,80473.4,80473.4,Fashion,185,2,2,2,6,Lost / Churned
+CUST5726,Customer_192,Pune,20,Male,2025-09-02,1,79157.2,79157.2,Electronics,122,3,2,2,7,Recent Low-Engagement
+CUST5743,Customer_248,Gaya,28,Male,2025-07-15,1,86401.08,86401.08,Electronics,171,3,2,2,7,Recent Low-Engagement
+CUST5762,Customer_404,Mumbai,20,Female,2025-10-20,1,31247.14,31247.14,Education,74,4,2,1,7,Recent Low-Engagement
+CUST5766,Customer_85,Gaya,27,Male,2025-01-22,1,226028.39,226028.39,Fashion,345,1,2,4,7,Needs Attention
+CUST5778,Customer_346,Patna,37,Male,2025-04-05,1,72124.72,72124.72,Fashion,272,2,2,2,6,Lost / Churned
+CUST5791,Customer_113,Patna,62,Male,2025-01-09,1,78010.54,78010.54,Fashion,358,1,2,2,5,Lost / Churned
+CUST5806,Customer_103,Mumbai,57,Female,2025-07-24,2,143666.99,71833.495,Education,162,3,4,3,10,Champions
+CUST5829,Customer_37,Delhi,32,Male,2025-09-05,1,39956.16,39956.16,Education,119,3,2,1,6,Recent Low-Engagement
+CUST5835,Customer_362,Patna,20,Male,2025-05-06,1,56623.16,56623.16,Electronics,241,2,3,2,7,Lost / Churned
+CUST5851,Customer_418,Patna,50,Male,2025-05-14,1,83088.9,83088.9,Electronics,233,2,3,2,7,Lost / Churned
+CUST5869,Customer_415,Delhi,23,Male,2025-02-20,1,285227.53,285227.53,Furniture,316,1,3,4,8,At-Risk High-Value
+CUST5871,Customer_335,Delhi,39,Female,2025-02-25,1,136832.9,136832.9,Furniture,311,1,3,3,7,At-Risk High-Value
+CUST5876,Customer_389,Patna,42,Female,2025-11-07,1,222899.82,222899.82,Electronics,56,4,3,4,11,Champions
+CUST5899,Customer_500,Gaya,31,Female,2025-07-28,1,23158.0,23158.0,Electronics,158,3,3,1,7,Needs Attention
+CUST5903,Customer_396,Hyderabad,27,Female,2025-04-26,1,13424.67,13424.67,Fashion,251,2,3,1,6,Lost / Churned
+CUST5926,Customer_308,Gaya,54,Male,2025-12-12,1,311180.64,311180.64,Furniture,21,4,3,4,11,Champions
+CUST5932,Customer_183,Gaya,62,Female,2025-06-30,1,74970.27,74970.27,Grocery,186,2,3,2,7,Lost / Churned
+CUST5933,Customer_92,Mumbai,29,Male,2025-01-29,1,65068.15,65068.15,Furniture,338,1,3,2,6,Lost / Churned
+CUST5945,Customer_49,Kolkata,40,Female,2025-02-04,1,200976.86,200976.86,Fashion,332,1,3,3,7,At-Risk High-Value
+CUST5988,Customer_266,Kolkata,43,Male,2025-10-24,1,88672.76,88672.76,Furniture,70,4,3,2,9,Needs Attention
+CUST6002,Customer_83,Delhi,46,Male,2025-11-04,1,214875.81,214875.81,Electronics,59,4,3,4,11,Champions
+CUST6006,Customer_344,Delhi,38,Male,2025-04-19,1,186072.9,186072.9,Furniture,258,2,3,3,8,At-Risk High-Value
+CUST6028,Customer_58,Delhi,39,Male,2025-03-25,1,82132.92,82132.92,Electronics,283,1,3,2,6,Lost / Churned
+CUST6037,Customer_121,Patna,28,Male,2025-01-13,1,3586.58,3586.58,Electronics,354,1,3,1,5,Lost / Churned
+CUST6067,Customer_316,Patna,55,Male,2025-09-05,2,209823.08000000002,104911.54000000001,Electronics,119,3,4,3,10,Champions
+CUST6082,Customer_301,Mumbai,62,Male,2025-10-24,2,548416.39,274208.195,Electronics,70,4,4,4,12,Champions
+CUST6096,Customer_53,Patna,51,Female,2025-02-08,1,197341.68,197341.68,Fashion,328,1,3,3,7,At-Risk High-Value
+CUST6111,Customer_204,Hyderabad,34,Female,2025-12-22,2,156256.16,78128.08,Electronics,11,4,4,3,11,Champions
+CUST6116,Customer_343,Gaya,32,Female,2025-07-09,1,86309.0,86309.0,Furniture,177,3,3,2,8,Needs Attention
+CUST6136,Customer_328,Hyderabad,22,Male,2025-03-20,1,71273.3,71273.3,Furniture,288,1,3,2,6,Lost / Churned
+CUST6142,Customer_410,Patna,37,Male,2025-01-26,1,128393.8,128393.8,Electronics,341,1,3,3,7,At-Risk High-Value
+CUST6149,Customer_181,Patna,32,Female,2025-08-10,1,72673.95,72673.95,Electronics,145,3,3,2,8,Needs Attention
+CUST6152,Customer_438,Bengaluru,39,Female,2025-10-21,1,118857.45,118857.45,Electronics,73,4,3,3,10,Champions
+CUST6162,Customer_165,Mumbai,42,Male,2025-06-19,1,31849.44,31849.44,Electronics,197,2,3,1,6,Lost / Churned
+CUST6173,Customer_51,Pune,22,Male,2025-08-03,1,150268.72,150268.72,Electronics,152,3,3,3,9,Champions
+CUST6180,Customer_73,Patna,64,Male,2025-08-30,1,157078.86,157078.86,Electronics,125,3,3,3,9,Champions
+CUST6206,Customer_18,Kolkata,50,Male,2025-12-12,1,302455.37,302455.37,Education,21,4,3,4,11,Champions
+CUST6228,Customer_466,Pune,41,Female,2025-08-06,1,89287.2,89287.2,Education,149,3,3,2,8,Needs Attention
+CUST6236,Customer_312,Kolkata,43,Female,2025-07-15,1,17039.73,17039.73,Electronics,171,3,3,1,7,Needs Attention
+CUST6238,Customer_258,Gaya,55,Male,2025-12-04,1,259301.0,259301.0,Grocery,29,4,3,4,11,Champions
+CUST6241,Customer_242,Hyderabad,55,Male,2025-02-14,1,18127.66,18127.66,Furniture,322,1,3,1,5,Lost / Churned
+CUST6258,Customer_229,Pune,52,Male,2025-07-15,1,40225.63,40225.63,Electronics,171,3,3,1,7,Needs Attention
+CUST6260,Customer_455,Gaya,37,Male,2025-04-24,1,105954.6,105954.6,Electronics,253,2,3,2,7,Lost / Churned
+CUST6279,Customer_97,Kolkata,21,Female,2025-06-04,1,256986.2,256986.2,Electronics,212,2,3,4,9,At-Risk High-Value
+CUST6288,Customer_407,Kolkata,55,Male,2025-01-16,1,17212.99,17212.99,Electronics,351,1,3,1,5,Lost / Churned
+CUST6309,Customer_345,Mumbai,55,Female,2025-06-06,1,61486.2,61486.2,Grocery,210,2,3,2,7,Lost / Churned
+CUST6311,Customer_257,Mumbai,65,Female,2025-10-31,1,301320.63,301320.63,Education,63,4,3,4,11,Champions
+CUST6314,Customer_66,Gaya,19,Female,2025-02-20,1,155811.12,155811.12,Grocery,316,1,3,3,7,At-Risk High-Value
+CUST6316,Customer_59,Pune,41,Male,2025-11-01,1,311126.04,311126.04,Electronics,62,4,3,4,11,Champions
+CUST6319,Customer_393,Bengaluru,32,Female,2025-01-18,1,46629.03,46629.03,Fashion,349,1,3,1,5,Lost / Churned
+CUST6336,Customer_63,Delhi,52,Male,2025-09-08,1,26771.99,26771.99,Electronics,116,3,3,1,7,Needs Attention
+CUST6340,Customer_125,Gaya,37,Female,2025-09-15,1,21368.29,21368.29,Grocery,109,3,3,1,7,Needs Attention
+CUST6345,Customer_420,Hyderabad,32,Male,2025-06-14,2,82147.94,41073.97,Education,202,2,4,2,8,Lost / Churned
+CUST6348,Customer_412,Kolkata,22,Female,2025-04-23,1,92286.1,92286.1,Electronics,254,2,3,2,7,Lost / Churned
+CUST6389,Customer_484,Kolkata,27,Male,2025-08-20,1,313519.95,313519.95,Furniture,135,3,3,4,10,Champions
+CUST6394,Customer_338,Bengaluru,57,Female,2025-12-14,1,57013.62,57013.62,Grocery,19,4,3,2,9,Needs Attention
+CUST6407,Customer_157,Delhi,26,Female,2025-12-28,2,315050.32,157525.16,Electronics,5,4,4,4,12,Champions
+CUST6410,Customer_301,Gaya,61,Male,2025-11-07,1,318649.86,318649.86,Electronics,56,4,3,4,11,Champions
+CUST6413,Customer_490,Patna,50,Female,2025-04-24,1,96340.16,96340.16,Fashion,253,2,3,2,7,Lost / Churned
+CUST6414,Customer_82,Delhi,30,Male,2025-05-06,1,62429.88,62429.88,Electronics,241,2,3,2,7,Lost / Churned
+CUST6421,Customer_218,Gaya,22,Male,2025-10-13,1,38696.65,38696.65,Electronics,81,4,3,1,8,Needs Attention
+CUST6432,Customer_194,Mumbai,62,Male,2025-05-16,1,46021.88,46021.88,Education,231,2,3,1,6,Lost / Churned
+CUST6436,Customer_288,Bengaluru,52,Male,2025-08-21,1,4418.86,4418.86,Fashion,134,3,3,1,7,Needs Attention
+CUST6442,Customer_10,Kolkata,62,Male,2025-10-05,1,429297.21,429297.21,Furniture,89,3,3,4,10,Champions
+CUST6444,Customer_251,Mumbai,23,Female,2025-09-06,1,259787.34,259787.34,Education,118,3,3,4,10,Champions
+CUST6467,Customer_181,Pune,24,Female,2025-02-11,1,318362.73,318362.73,Grocery,325,1,3,4,8,At-Risk High-Value
+CUST6504,Customer_357,Kolkata,34,Male,2025-03-20,1,190162.88,190162.88,Electronics,288,1,3,3,7,At-Risk High-Value
+CUST6511,Customer_15,Mumbai,54,Male,2025-09-03,1,54039.78,54039.78,Fashion,121,3,3,2,8,Needs Attention
+CUST6518,Customer_410,Hyderabad,44,Female,2025-08-25,1,177138.7,177138.7,Fashion,130,3,3,3,9,Champions
+CUST6522,Customer_468,Mumbai,61,Male,2025-06-21,1,107317.63,107317.63,Education,195,2,3,2,7,Lost / Churned
+CUST6531,Customer_218,Kolkata,57,Male,2025-04-04,1,78327.66,78327.66,Grocery,273,1,3,2,6,Lost / Churned
+CUST6532,Customer_348,Pune,30,Male,2025-08-22,2,610981.74,305490.87,Grocery,133,3,4,4,11,Champions
+CUST6538,Customer_365,Pune,37,Female,2025-07-28,1,26611.8,26611.8,Electronics,158,3,3,1,7,Needs Attention
+CUST6540,Customer_230,Kolkata,19,Male,2025-04-10,1,87368.96,87368.96,Fashion,267,2,3,2,7,Lost / Churned
+CUST6564,Customer_216,Patna,59,Female,2025-02-26,1,142635.56,142635.56,Electronics,310,1,3,3,7,At-Risk High-Value
+CUST6565,Customer_431,Gaya,50,Female,2025-06-22,1,168646.62,168646.62,Education,194,2,3,3,8,At-Risk High-Value
+CUST6571,Customer_156,Pune,43,Female,2025-12-11,1,75706.23,75706.23,Furniture,22,4,3,2,9,Needs Attention
+CUST6578,Customer_194,Hyderabad,64,Female,2025-01-09,1,19202.88,19202.88,Fashion,358,1,3,1,5,Lost / Churned
+CUST6584,Customer_449,Mumbai,21,Male,2025-03-27,1,296462.6,296462.6,Electronics,281,1,3,4,8,At-Risk High-Value
+CUST6585,Customer_214,Hyderabad,21,Male,2025-06-22,1,103625.84,103625.84,Grocery,194,2,3,2,7,Lost / Churned
+CUST6589,Customer_367,Kolkata,30,Male,2025-09-18,1,70470.99,70470.99,Furniture,106,3,3,2,8,Needs Attention
+CUST6600,Customer_242,Bengaluru,58,Female,2025-03-07,1,439266.33,439266.33,Electronics,301,1,3,4,8,At-Risk High-Value
+CUST6618,Customer_311,Pune,19,Male,2025-04-28,1,230997.12,230997.12,Fashion,249,2,3,4,9,At-Risk High-Value
+CUST6621,Customer_104,Mumbai,19,Female,2025-05-14,1,34477.47,34477.47,Education,233,2,3,1,6,Lost / Churned
+CUST6625,Customer_121,Hyderabad,18,Male,2025-04-04,1,121251.76,121251.76,Electronics,273,1,3,3,7,At-Risk High-Value
+CUST6627,Customer_353,Patna,57,Male,2025-01-14,1,248966.58,248966.58,Grocery,353,1,3,4,8,At-Risk High-Value
+CUST6631,Customer_141,Kolkata,58,Male,2025-07-11,1,28924.68,28924.68,Education,175,3,3,1,7,Needs Attention
+CUST6638,Customer_350,Bengaluru,45,Male,2025-12-14,1,167313.48,167313.48,Fashion,19,4,3,3,10,Champions
+CUST6654,Customer_66,Pune,38,Female,2025-09-20,1,15439.6,15439.6,Electronics,104,3,3,1,7,Needs Attention
+CUST6655,Customer_192,Pune,31,Female,2025-10-03,1,3156.7,3156.7,Electronics,91,3,3,1,7,Needs Attention
+CUST6658,Customer_274,Patna,60,Male,2025-11-19,1,285180.93,285180.93,Education,44,4,3,4,11,Champions
+CUST6678,Customer_241,Kolkata,41,Male,2025-12-17,1,28362.94,28362.94,Grocery,16,4,3,1,8,Needs Attention
+CUST6684,Customer_426,Bengaluru,59,Male,2025-03-22,1,193199.4,193199.4,Furniture,286,1,3,3,7,At-Risk High-Value
+CUST6697,Customer_137,Pune,26,Male,2025-09-13,1,75059.95,75059.95,Furniture,111,3,3,2,8,Needs Attention
+CUST6704,Customer_335,Mumbai,24,Female,2025-12-29,2,452333.24,226166.62,Fashion,4,4,4,4,12,Champions
+CUST6706,Customer_215,Mumbai,54,Male,2025-02-14,1,45333.96,45333.96,Electronics,322,1,3,1,5,Lost / Churned
+CUST6707,Customer_420,Pune,33,Male,2025-03-20,1,328896.4,328896.4,Electronics,288,1,3,4,8,At-Risk High-Value
+CUST6714,Customer_31,Patna,41,Female,2025-02-13,1,439469.6,439469.6,Education,323,1,3,4,8,At-Risk High-Value
+CUST6719,Customer_394,Patna,30,Female,2025-01-04,1,45270.45,45270.45,Education,363,1,3,1,5,Lost / Churned
+CUST6727,Customer_452,Mumbai,34,Female,2025-11-09,1,111865.08,111865.08,Electronics,54,4,3,2,9,Needs Attention
+CUST6728,Customer_413,Bengaluru,64,Male,2025-12-15,1,34757.71,34757.71,Electronics,18,4,3,1,8,Needs Attention
+CUST6748,Customer_2,Patna,40,Female,2025-10-12,1,396906.8,396906.8,Education,82,4,3,4,11,Champions
+CUST6752,Customer_52,Kolkata,65,Male,2025-10-16,1,59121.8,59121.8,Grocery,78,4,3,2,9,Needs Attention
+CUST6762,Customer_235,Delhi,47,Male,2025-01-28,1,10934.02,10934.02,Grocery,339,1,3,1,5,Lost / Churned
+CUST6773,Customer_200,Hyderabad,22,Male,2025-04-07,1,132823.76,132823.76,Electronics,270,2,3,3,8,At-Risk High-Value
+CUST6780,Customer_262,Hyderabad,42,Female,2025-06-05,1,269519.53,269519.53,Education,211,2,3,4,9,At-Risk High-Value
+CUST6783,Customer_7,Kolkata,30,Male,2025-08-25,1,189183.33,189183.33,Education,130,3,3,3,9,Champions
+CUST6791,Customer_430,Pune,22,Female,2025-11-27,1,148740.85,148740.85,Furniture,36,4,3,3,10,Champions
+CUST6806,Customer_316,Pune,46,Male,2025-04-16,1,246529.68,246529.68,Electronics,261,2,3,4,9,At-Risk High-Value
+CUST6814,Customer_70,Bengaluru,62,Male,2025-05-21,1,56546.37,56546.37,Fashion,226,2,3,2,7,Lost / Churned
+CUST6815,Customer_295,Patna,43,Female,2025-06-24,1,16650.75,16650.75,Furniture,192,2,3,1,6,Lost / Churned
+CUST6821,Customer_73,Pune,24,Male,2025-06-13,1,274083.6,274083.6,Education,203,2,3,4,9,At-Risk High-Value
+CUST6828,Customer_222,Bengaluru,50,Male,2025-03-26,1,127614.42,127614.42,Furniture,282,1,3,3,7,At-Risk High-Value
+CUST6845,Customer_337,Hyderabad,34,Male,2026-01-01,2,769479.75,384739.875,Fashion,1,4,4,4,12,Champions
+CUST6860,Customer_168,Bengaluru,30,Male,2025-08-09,1,30210.72,30210.72,Electronics,146,3,3,1,7,Needs Attention
+CUST6862,Customer_257,Patna,45,Female,2025-12-31,1,95386.66,95386.66,Furniture,2,4,3,2,9,Needs Attention
+CUST6870,Customer_53,Hyderabad,51,Female,2025-05-24,1,70818.68,70818.68,Grocery,223,2,3,2,7,Lost / Churned
+CUST6881,Customer_158,Delhi,41,Female,2025-11-19,1,297463.11,297463.11,Electronics,44,4,3,4,11,Champions
+CUST6887,Customer_423,Delhi,21,Male,2025-08-30,1,15733.65,15733.65,Furniture,125,3,3,1,7,Needs Attention
+CUST6921,Customer_68,Patna,62,Female,2025-09-09,1,11206.86,11206.86,Electronics,115,3,3,1,7,Needs Attention
+CUST6927,Customer_165,Gaya,23,Male,2025-07-09,1,86462.0,86462.0,Furniture,177,3,3,2,8,Needs Attention
+CUST6932,Customer_304,Kolkata,31,Male,2025-02-25,1,21090.24,21090.24,Fashion,311,1,3,1,5,Lost / Churned
+CUST6933,Customer_224,Patna,23,Female,2025-03-29,1,125483.1,125483.1,Grocery,279,1,3,3,7,At-Risk High-Value
+CUST6938,Customer_344,Kolkata,43,Female,2025-04-20,1,119662.88,119662.88,Electronics,257,2,3,3,8,At-Risk High-Value
+CUST6944,Customer_460,Gaya,33,Male,2025-11-03,1,34742.76,34742.76,Education,60,4,3,1,8,Needs Attention
+CUST6969,Customer_83,Hyderabad,41,Female,2025-04-16,1,167677.65,167677.65,Grocery,261,2,3,3,8,At-Risk High-Value
+CUST6987,Customer_107,Gaya,31,Female,2025-02-22,1,6976.56,6976.56,Grocery,314,1,3,1,5,Lost / Churned
+CUST6995,Customer_374,Hyderabad,33,Male,2025-01-14,1,325425.87,325425.87,Education,353,1,3,4,8,At-Risk High-Value
+CUST6997,Customer_244,Gaya,28,Male,2025-12-06,1,27593.6,27593.6,Electronics,27,4,3,1,8,Needs Attention
+CUST7016,Customer_88,Pune,33,Female,2025-07-07,1,184654.44,184654.44,Furniture,179,3,3,3,9,Champions
+CUST7026,Customer_317,Bengaluru,28,Male,2025-12-08,2,262752.56,131376.28,Electronics,25,4,4,4,12,Champions
+CUST7031,Customer_224,Gaya,37,Female,2025-01-17,1,195199.8,195199.8,Fashion,350,1,3,3,7,At-Risk High-Value
+CUST7033,Customer_359,Gaya,33,Male,2025-11-21,1,156203.52,156203.52,Electronics,42,4,3,3,10,Champions
+CUST7037,Customer_45,Mumbai,34,Male,2025-12-15,1,405004.41,405004.41,Grocery,18,4,3,4,11,Champions
+CUST7042,Customer_137,Kolkata,60,Male,2025-06-08,1,70227.96,70227.96,Education,208,2,3,2,7,Lost / Churned
+CUST7059,Customer_224,Delhi,51,Female,2025-06-08,1,13776.48,13776.48,Electronics,208,2,3,1,6,Lost / Churned
+CUST7062,Customer_92,Bengaluru,52,Male,2025-09-18,1,180509.76,180509.76,Electronics,106,3,3,3,9,Champions
+CUST7065,Customer_335,Bengaluru,24,Female,2025-04-05,1,241144.8,241144.8,Fashion,272,2,3,4,9,At-Risk High-Value
+CUST7068,Customer_106,Hyderabad,24,Male,2025-12-01,1,292060.48,292060.48,Education,32,4,3,4,11,Champions
+CUST7072,Customer_4,Gaya,62,Female,2025-09-28,1,210619.12,210619.12,Fashion,96,3,3,3,9,Champions
+CUST7082,Customer_492,Bengaluru,21,Female,2025-05-06,1,100658.0,100658.0,Education,241,2,3,2,7,Lost / Churned
+CUST7091,Customer_1,Mumbai,48,Female,2025-11-25,1,237573.1,237573.1,Grocery,38,4,3,4,11,Champions
+CUST7093,Customer_174,Mumbai,23,Male,2025-07-04,1,237005.1,237005.1,Furniture,182,2,3,4,9,At-Risk High-Value
+CUST7104,Customer_498,Mumbai,34,Male,2025-11-08,1,245061.25,245061.25,Furniture,55,4,3,4,11,Champions
+CUST7110,Customer_176,Hyderabad,60,Male,2025-04-24,1,3953.8,3953.8,Electronics,253,2,3,1,6,Lost / Churned
+CUST7117,Customer_6,Gaya,53,Female,2025-02-22,1,39406.86,39406.86,Furniture,314,1,3,1,5,Lost / Churned
+CUST7152,Customer_423,Patna,22,Female,2025-08-31,1,106181.76,106181.76,Electronics,124,3,3,2,8,Needs Attention
+CUST7164,Customer_251,Pune,64,Male,2025-12-15,1,282545.1,282545.1,Fashion,18,4,3,4,11,Champions
+CUST7173,Customer_44,Hyderabad,21,Male,2025-11-02,1,47212.5,47212.5,Electronics,61,4,3,1,8,Needs Attention
+CUST7176,Customer_434,Bengaluru,33,Male,2025-04-18,1,54990.9,54990.9,Furniture,259,2,3,2,7,Lost / Churned
+CUST7177,Customer_40,Hyderabad,21,Male,2025-06-16,1,75415.95,75415.95,Fashion,200,2,3,2,7,Lost / Churned
+CUST7178,Customer_478,Bengaluru,64,Male,2025-09-17,1,16185.56,16185.56,Furniture,107,3,3,1,7,Needs Attention
+CUST7185,Customer_285,Delhi,61,Female,2025-02-15,1,98255.31,98255.31,Furniture,321,1,3,2,6,Lost / Churned
+CUST7186,Customer_150,Mumbai,36,Female,2025-02-27,1,10625.65,10625.65,Fashion,309,1,3,1,5,Lost / Churned
+CUST7187,Customer_149,Patna,38,Male,2025-01-04,1,16633.85,16633.85,Electronics,363,1,3,1,5,Lost / Churned
+CUST7188,Customer_180,Bengaluru,37,Male,2025-09-26,2,88709.25,44354.625,Electronics,98,3,4,2,9,Needs Attention
+CUST7196,Customer_286,Delhi,40,Male,2025-08-26,1,267104.88,267104.88,Furniture,129,3,3,4,10,Champions
+CUST7219,Customer_391,Pune,30,Male,2025-02-03,1,229527.7,229527.7,Education,333,1,3,4,8,At-Risk High-Value
+CUST7221,Customer_478,Gaya,39,Male,2025-08-04,1,15069.36,15069.36,Electronics,151,3,3,1,7,Needs Attention
+CUST7226,Customer_421,Mumbai,51,Male,2025-08-08,1,3859.08,3859.08,Electronics,147,3,3,1,7,Needs Attention
+CUST7228,Customer_200,Bengaluru,21,Female,2025-05-24,1,117472.56,117472.56,Fashion,223,2,3,3,8,At-Risk High-Value
+CUST7236,Customer_366,Gaya,38,Male,2025-01-18,1,130323.36,130323.36,Education,349,1,3,3,7,At-Risk High-Value
+CUST7238,Customer_335,Delhi,54,Female,2025-05-13,1,280228.24,280228.24,Electronics,234,2,3,4,9,At-Risk High-Value
+CUST7249,Customer_144,Kolkata,29,Male,2025-10-20,1,19176.32,19176.32,Grocery,74,4,3,1,8,Needs Attention
+CUST7263,Customer_120,Hyderabad,55,Male,2025-09-20,1,10851.3,10851.3,Furniture,104,3,3,1,7,Needs Attention
+CUST7277,Customer_320,Mumbai,62,Female,2025-11-12,1,291741.38,291741.38,Fashion,51,4,3,4,11,Champions
+CUST7283,Customer_262,Mumbai,34,Male,2025-05-09,1,98418.06,98418.06,Fashion,238,2,3,2,7,Lost / Churned
+CUST7285,Customer_493,Hyderabad,18,Female,2025-03-05,1,9639.44,9639.44,Education,303,1,3,1,5,Lost / Churned
+CUST7309,Customer_266,Delhi,52,Female,2025-04-26,1,256457.76,256457.76,Education,251,2,3,4,9,At-Risk High-Value
+CUST7315,Customer_283,Mumbai,45,Female,2025-05-16,1,53794.02,53794.02,Education,231,2,3,2,7,Lost / Churned
+CUST7317,Customer_70,Delhi,54,Female,2025-10-12,2,138811.2,69405.6,Education,82,4,4,3,11,Champions
+CUST7341,Customer_457,Hyderabad,49,Female,2025-04-10,1,166562.96,166562.96,Electronics,267,2,3,3,8,At-Risk High-Value
+CUST7361,Customer_159,Hyderabad,20,Male,2025-02-02,1,142398.54,142398.54,Electronics,334,1,3,3,7,At-Risk High-Value
+CUST7371,Customer_463,Bengaluru,38,Female,2025-02-24,1,39342.98,39342.98,Electronics,312,1,3,1,5,Lost / Churned
+CUST7374,Customer_375,Patna,62,Female,2025-02-23,2,511309.4,255654.7,Education,313,1,4,4,9,At-Risk High-Value
+CUST7388,Customer_6,Hyderabad,48,Male,2025-06-13,1,267400.44,267400.44,Grocery,203,2,3,4,9,At-Risk High-Value
+CUST7405,Customer_15,Mumbai,57,Male,2025-08-29,1,159668.96,159668.96,Fashion,126,3,3,3,9,Champions
+CUST7413,Customer_4,Kolkata,54,Male,2025-10-25,1,82021.25,82021.25,Electronics,69,4,3,2,9,Needs Attention
+CUST7416,Customer_191,Hyderabad,54,Female,2025-06-21,1,482551.9,482551.9,Grocery,195,2,3,4,9,At-Risk High-Value
+CUST7445,Customer_233,Bengaluru,60,Female,2025-10-14,1,321222.51,321222.51,Fashion,80,4,3,4,11,Champions
+CUST7462,Customer_379,Patna,41,Male,2025-11-02,1,2768.1,2768.1,Electronics,61,4,3,1,8,Needs Attention
+CUST7465,Customer_345,Bengaluru,58,Female,2025-03-07,1,234167.84,234167.84,Fashion,301,1,3,4,8,At-Risk High-Value
+CUST7473,Customer_372,Mumbai,36,Female,2025-11-30,1,200523.55,200523.55,Grocery,33,4,3,3,10,Champions
+CUST7476,Customer_45,Hyderabad,21,Female,2025-10-29,1,118002.51,118002.51,Education,65,4,3,3,10,Champions
+CUST7484,Customer_478,Gaya,36,Male,2025-10-24,1,223452.45,223452.45,Education,70,4,3,4,11,Champions
+CUST7491,Customer_139,Bengaluru,46,Female,2025-12-29,1,107697.64,107697.64,Grocery,4,4,3,2,9,Needs Attention
+CUST7494,Customer_188,Mumbai,30,Female,2025-06-18,1,107028.9,107028.9,Electronics,198,2,3,2,7,Lost / Churned
+CUST7501,Customer_2,Gaya,40,Female,2025-11-26,1,51679.6,51679.6,Grocery,37,4,3,2,9,Needs Attention
+CUST7504,Customer_183,Pune,52,Male,2025-12-14,1,106265.28,106265.28,Electronics,19,4,3,2,9,Needs Attention
+CUST7522,Customer_322,Kolkata,53,Female,2025-02-27,1,2070.65,2070.65,Grocery,309,1,3,1,5,Lost / Churned
+CUST7544,Customer_225,Mumbai,26,Male,2025-04-16,1,350933.9,350933.9,Education,261,2,3,4,9,At-Risk High-Value
+CUST7564,Customer_478,Patna,20,Female,2025-12-23,1,176483.04,176483.04,Education,10,4,3,3,10,Champions
+CUST7568,Customer_12,Gaya,65,Male,2025-12-10,2,72887.06,36443.53,Fashion,23,4,4,2,10,Needs Attention
+CUST7574,Customer_66,Delhi,43,Female,2025-09-08,1,38214.2,38214.2,Furniture,116,3,3,1,7,Needs Attention
+CUST7578,Customer_245,Delhi,38,Female,2025-12-20,1,60346.48,60346.48,Grocery,13,4,3,2,9,Needs Attention
+CUST7587,Customer_223,Pune,27,Male,2025-12-04,1,408776.58,408776.58,Electronics,29,4,3,4,11,Champions
+CUST7588,Customer_67,Pune,47,Male,2025-10-05,1,27898.64,27898.64,Grocery,89,3,3,1,7,Needs Attention
+CUST7600,Customer_208,Pune,23,Male,2025-10-10,1,42736.43,42736.43,Electronics,84,3,3,1,7,Needs Attention
+CUST7609,Customer_327,Pune,41,Female,2025-11-19,1,154958.15,154958.15,Fashion,44,4,3,3,10,Champions
+CUST7613,Customer_432,Mumbai,22,Male,2025-12-06,1,394778.24,394778.24,Electronics,27,4,3,4,11,Champions
+CUST7615,Customer_277,Patna,37,Male,2025-09-14,1,163012.74,163012.74,Grocery,110,3,3,3,9,Champions
+CUST7618,Customer_154,Gaya,25,Male,2025-09-03,1,92273.25,92273.25,Fashion,121,3,3,2,8,Needs Attention
+CUST7621,Customer_375,Gaya,61,Female,2025-12-30,1,44751.42,44751.42,Fashion,3,4,3,1,8,Needs Attention
+CUST7625,Customer_251,Patna,50,Female,2025-03-23,1,17409.33,17409.33,Education,285,1,3,1,5,Lost / Churned
+CUST7628,Customer_120,Bengaluru,56,Male,2025-03-25,1,160299.54,160299.54,Furniture,283,1,3,3,7,At-Risk High-Value
+CUST7631,Customer_115,Gaya,62,Female,2025-11-11,1,107745.36,107745.36,Fashion,52,4,3,2,9,Needs Attention
+CUST7650,Customer_453,Kolkata,50,Male,2025-01-18,1,347736.0,347736.0,Education,349,1,3,4,8,At-Risk High-Value
+CUST7654,Customer_172,Delhi,42,Male,2025-07-16,1,67132.4,67132.4,Grocery,170,3,3,2,8,Needs Attention
+CUST7659,Customer_445,Patna,20,Male,2025-04-10,1,49067.82,49067.82,Furniture,267,2,3,2,7,Lost / Churned
+CUST7664,Customer_376,Delhi,43,Female,2025-04-25,1,216126.48,216126.48,Fashion,252,2,3,4,9,At-Risk High-Value
+CUST7676,Customer_42,Bengaluru,39,Female,2025-08-03,1,405225.6,405225.6,Grocery,152,3,3,4,10,Champions
+CUST7718,Customer_293,Delhi,26,Male,2025-08-12,1,374935.6,374935.6,Electronics,143,3,3,4,10,Champions
+CUST7724,Customer_365,Kolkata,38,Male,2025-12-23,1,100442.24,100442.24,Education,10,4,3,2,9,Needs Attention
+CUST7757,Customer_494,Mumbai,58,Male,2025-07-21,1,219795.57,219795.57,Electronics,165,3,3,4,10,Champions
+CUST7787,Customer_139,Pune,40,Male,2025-06-25,1,286879.52,286879.52,Education,191,2,3,4,9,At-Risk High-Value
+CUST7801,Customer_150,Pune,41,Male,2025-09-10,1,43373.54,43373.54,Furniture,114,3,3,1,7,Needs Attention
+CUST7806,Customer_4,Hyderabad,64,Female,2025-10-23,1,81537.0,81537.0,Grocery,71,4,3,2,9,Needs Attention
+CUST7814,Customer_134,Bengaluru,20,Female,2025-07-21,1,331893.24,331893.24,Fashion,165,3,3,4,10,Champions
+CUST7824,Customer_21,Pune,20,Male,2025-11-06,2,185204.61,92602.305,Grocery,57,4,4,3,11,Champions
+CUST7844,Customer_469,Patna,53,Male,2025-05-04,1,134060.64,134060.64,Furniture,243,2,3,3,8,At-Risk High-Value
+CUST7863,Customer_316,Gaya,37,Female,2025-12-22,1,202154.0,202154.0,Furniture,11,4,3,3,10,Champions
+CUST7876,Customer_34,Bengaluru,57,Male,2025-05-22,1,402956.64,402956.64,Fashion,225,2,3,4,9,At-Risk High-Value
+CUST7903,Customer_163,Bengaluru,60,Female,2025-06-02,1,101295.36,101295.36,Fashion,214,2,3,2,7,Lost / Churned
+CUST7911,Customer_7,Delhi,59,Male,2025-03-07,1,142731.2,142731.2,Electronics,301,1,3,3,7,At-Risk High-Value
+CUST7933,Customer_232,Bengaluru,50,Male,2025-11-13,1,91236.0,91236.0,Grocery,50,4,3,2,9,Needs Attention
+CUST7937,Customer_158,Mumbai,43,Female,2025-11-29,1,223776.99,223776.99,Furniture,34,4,3,4,11,Champions
+CUST7944,Customer_282,Patna,41,Male,2025-07-01,1,171571.86,171571.86,Furniture,185,2,3,3,8,At-Risk High-Value
+CUST7981,Customer_196,Mumbai,46,Male,2025-10-09,1,1495.14,1495.14,Furniture,85,3,3,1,7,Needs Attention
+CUST7988,Customer_383,Mumbai,39,Female,2025-04-21,1,3992.85,3992.85,Fashion,256,2,3,1,6,Lost / Churned
+CUST8000,Customer_275,Kolkata,51,Male,2025-04-07,1,150898.88,150898.88,Grocery,270,2,3,3,8,At-Risk High-Value
+CUST8010,Customer_187,Hyderabad,41,Female,2026-01-01,1,141200.44,141200.44,Grocery,1,4,3,3,10,Champions
+CUST8017,Customer_371,Patna,37,Male,2025-10-11,1,196003.1,196003.1,Furniture,83,3,3,3,9,Champions
+CUST8023,Customer_118,Mumbai,50,Female,2025-10-24,1,101845.28,101845.28,Fashion,70,4,3,2,9,Needs Attention
+CUST8036,Customer_173,Patna,44,Male,2025-09-14,1,22254.12,22254.12,Electronics,110,3,3,1,7,Needs Attention
+CUST8039,Customer_391,Kolkata,55,Female,2025-05-27,1,170899.98,170899.98,Education,220,2,3,3,8,At-Risk High-Value
+CUST8049,Customer_384,Delhi,37,Female,2025-08-25,1,130165.29,130165.29,Electronics,130,3,3,3,9,Champions
+CUST8053,Customer_408,Delhi,58,Male,2025-10-26,2,461478.98,230739.49,Electronics,68,4,4,4,12,Champions
+CUST8058,Customer_273,Pune,60,Female,2025-01-11,1,146255.58,146255.58,Education,356,1,3,3,7,At-Risk High-Value
+CUST8065,Customer_92,Kolkata,53,Male,2025-07-25,1,89054.9,89054.9,Electronics,161,3,3,2,8,Needs Attention
+CUST8067,Customer_283,Patna,47,Female,2025-05-02,1,261456.84,261456.84,Furniture,245,2,3,4,9,At-Risk High-Value
+CUST8075,Customer_401,Patna,62,Female,2025-02-08,1,38212.75,38212.75,Fashion,328,1,3,1,5,Lost / Churned
+CUST8098,Customer_337,Patna,26,Female,2025-03-09,1,107775.6,107775.6,Fashion,299,1,3,2,6,Lost / Churned
+CUST8105,Customer_385,Delhi,52,Male,2025-01-11,1,107665.89,107665.89,Electronics,356,1,3,2,6,Lost / Churned
+CUST8110,Customer_268,Delhi,54,Male,2025-12-01,1,103074.8,103074.8,Electronics,32,4,3,2,9,Needs Attention
+CUST8124,Customer_344,Pune,33,Female,2025-07-14,1,87386.72,87386.72,Fashion,172,3,3,2,8,Needs Attention
+CUST8128,Customer_101,Kolkata,48,Male,2025-11-23,1,17070.85,17070.85,Electronics,40,4,3,1,8,Needs Attention
+CUST8154,Customer_224,Pune,47,Female,2025-10-28,1,425608.74,425608.74,Electronics,66,4,3,4,11,Champions
+CUST8164,Customer_156,Delhi,34,Female,2025-06-30,1,309378.72,309378.72,Furniture,186,2,3,4,9,At-Risk High-Value
+CUST8195,Customer_388,Patna,52,Female,2025-08-02,1,3727.43,3727.43,Fashion,153,3,3,1,7,Needs Attention
+CUST8199,Customer_39,Gaya,64,Female,2025-03-30,1,10864.96,10864.96,Furniture,278,1,3,1,5,Lost / Churned
+CUST8200,Customer_147,Patna,22,Female,2025-03-27,1,97801.84,97801.84,Electronics,281,1,3,2,6,Lost / Churned
+CUST8211,Customer_62,Gaya,19,Female,2025-03-05,1,411726.33,411726.33,Furniture,303,1,3,4,8,At-Risk High-Value
+CUST8217,Customer_83,Delhi,43,Female,2025-11-06,1,68529.18,68529.18,Education,57,4,3,2,9,Needs Attention
+CUST8225,Customer_468,Bengaluru,64,Male,2025-11-22,1,311660.72,311660.72,Grocery,41,4,3,4,11,Champions
+CUST8229,Customer_161,Pune,32,Male,2025-04-21,1,129289.55,129289.55,Electronics,256,2,3,3,8,At-Risk High-Value
+CUST8242,Customer_492,Mumbai,51,Male,2025-11-07,1,235460.7,235460.7,Grocery,56,4,3,4,11,Champions
+CUST8268,Customer_18,Kolkata,47,Female,2025-10-11,1,115132.52,115132.52,Fashion,83,3,3,3,9,Champions
+CUST8269,Customer_104,Bengaluru,34,Female,2025-12-13,1,93549.04,93549.04,Education,20,4,3,2,9,Needs Attention
+CUST8294,Customer_103,Hyderabad,30,Female,2025-07-04,1,199506.68,199506.68,Education,182,2,3,3,8,At-Risk High-Value
+CUST8298,Customer_489,Delhi,45,Female,2025-03-10,1,429431.7,429431.7,Electronics,298,1,4,4,9,At-Risk High-Value
+CUST8300,Customer_242,Hyderabad,44,Female,2025-09-17,1,14491.62,14491.62,Grocery,107,3,4,1,8,Needs Attention
+CUST8311,Customer_225,Bengaluru,32,Male,2025-06-25,1,45048.9,45048.9,Electronics,191,2,4,1,7,Lost / Churned
+CUST8314,Customer_440,Gaya,28,Female,2025-03-07,1,73387.62,73387.62,Furniture,301,1,4,2,7,Lost / Churned
+CUST8316,Customer_121,Hyderabad,63,Female,2025-02-13,1,369482.04,369482.04,Electronics,323,1,4,4,9,At-Risk High-Value
+CUST8318,Customer_189,Kolkata,29,Female,2025-09-25,1,6050.27,6050.27,Electronics,99,3,4,1,8,Needs Attention
+CUST8319,Customer_362,Delhi,44,Male,2025-02-27,1,99371.28,99371.28,Grocery,309,1,4,2,7,Lost / Churned
+CUST8322,Customer_429,Hyderabad,28,Male,2025-06-24,1,242974.8,242974.8,Furniture,192,2,4,4,10,At-Risk High-Value
+CUST8325,Customer_16,Bengaluru,62,Female,2025-03-19,1,324318.12,324318.12,Furniture,289,1,4,4,9,At-Risk High-Value
+CUST8338,Customer_90,Pune,38,Male,2025-07-06,1,188413.61,188413.61,Fashion,180,3,4,3,10,Champions
+CUST8346,Customer_384,Hyderabad,30,Male,2025-01-06,1,439609.5,439609.5,Electronics,361,1,4,4,9,At-Risk High-Value
+CUST8347,Customer_236,Hyderabad,55,Male,2025-08-01,1,12255.87,12255.87,Education,154,3,4,1,8,Needs Attention
+CUST8352,Customer_400,Gaya,44,Male,2025-03-04,1,210254.64,210254.64,Electronics,304,1,4,3,8,At-Risk High-Value
+CUST8364,Customer_325,Hyderabad,21,Male,2025-07-07,1,85364.44,85364.44,Electronics,179,3,4,2,9,Needs Attention
+CUST8366,Customer_355,Bengaluru,65,Female,2025-03-25,1,299029.7,299029.7,Education,283,1,4,4,9,At-Risk High-Value
+CUST8381,Customer_112,Kolkata,40,Male,2025-05-17,1,473144.2,473144.2,Education,230,2,4,4,10,At-Risk High-Value
+CUST8387,Customer_133,Bengaluru,48,Female,2025-12-08,1,154238.45,154238.45,Furniture,25,4,4,3,11,Champions
+CUST8390,Customer_297,Mumbai,47,Female,2025-02-22,1,285282.83,285282.83,Electronics,314,1,4,4,9,At-Risk High-Value
+CUST8399,Customer_160,Mumbai,40,Male,2025-09-24,1,97826.15,97826.15,Education,100,3,4,2,9,Needs Attention
+CUST8408,Customer_249,Delhi,51,Female,2025-07-07,1,122496.24,122496.24,Electronics,179,3,4,3,10,Champions
+CUST8425,Customer_254,Delhi,47,Male,2025-05-29,1,100147.38,100147.38,Electronics,218,2,4,2,8,Lost / Churned
+CUST8430,Customer_277,Gaya,45,Male,2025-12-30,1,17766.9,17766.9,Electronics,3,4,4,1,9,Needs Attention
+CUST8431,Customer_90,Delhi,28,Male,2025-08-13,1,220973.34,220973.34,Grocery,142,3,4,4,11,Champions
+CUST8453,Customer_68,Patna,53,Female,2025-01-09,1,101689.05,101689.05,Electronics,358,1,4,2,7,Lost / Churned
+CUST8455,Customer_468,Bengaluru,37,Female,2025-05-26,1,95992.04,95992.04,Fashion,221,2,4,2,8,Lost / Churned
+CUST8466,Customer_66,Hyderabad,43,Male,2025-08-22,1,47743.08,47743.08,Electronics,133,3,4,1,8,Needs Attention
+CUST8467,Customer_104,Bengaluru,23,Male,2025-03-01,1,8582.49,8582.49,Education,307,1,4,1,6,Lost / Churned
+CUST8502,Customer_220,Patna,47,Male,2025-11-20,1,14756.18,14756.18,Electronics,43,4,4,1,9,Needs Attention
+CUST8513,Customer_125,Pune,49,Female,2025-12-17,1,228955.74,228955.74,Electronics,16,4,4,4,12,Champions
+CUST8515,Customer_445,Mumbai,22,Male,2025-07-24,1,236398.82,236398.82,Furniture,162,3,4,4,11,Champions
+CUST8525,Customer_126,Gaya,40,Female,2025-04-20,1,85329.0,85329.0,Fashion,257,2,4,2,8,Lost / Churned
+CUST8532,Customer_323,Delhi,43,Female,2025-05-05,1,69756.24,69756.24,Furniture,242,2,4,2,8,Lost / Churned
+CUST8537,Customer_494,Hyderabad,50,Female,2025-01-21,1,39400.4,39400.4,Electronics,346,1,4,1,6,Lost / Churned
+CUST8575,Customer_481,Patna,21,Male,2025-03-28,1,38929.37,38929.37,Education,280,1,4,1,6,Lost / Churned
+CUST8578,Customer_154,Kolkata,48,Male,2025-12-24,1,6910.12,6910.12,Electronics,9,4,4,1,9,Needs Attention
+CUST8583,Customer_290,Delhi,37,Female,2025-12-21,1,35903.14,35903.14,Electronics,12,4,4,1,9,Needs Attention
+CUST8595,Customer_63,Mumbai,44,Female,2025-12-19,1,18229.0,18229.0,Electronics,14,4,4,1,9,Needs Attention
+CUST8600,Customer_53,Hyderabad,42,Male,2025-03-20,1,10884.12,10884.12,Education,288,1,4,1,6,Lost / Churned
+CUST8623,Customer_84,Hyderabad,32,Male,2025-01-22,1,407455.5,407455.5,Electronics,345,1,4,4,9,At-Risk High-Value
+CUST8649,Customer_160,Gaya,30,Male,2025-11-26,1,420808.14,420808.14,Grocery,37,4,4,4,12,Champions
+CUST8650,Customer_384,Gaya,23,Male,2025-02-20,1,78828.6,78828.6,Grocery,316,1,4,2,7,Lost / Churned
+CUST8657,Customer_495,Delhi,58,Female,2025-11-28,1,444016.4,444016.4,Electronics,35,4,4,4,12,Champions
+CUST8660,Customer_213,Patna,42,Female,2025-03-12,1,203722.48,203722.48,Electronics,296,1,4,3,8,At-Risk High-Value
+CUST8686,Customer_404,Patna,56,Female,2025-10-28,1,175530.12,175530.12,Furniture,66,4,4,3,11,Champions
+CUST8691,Customer_252,Patna,27,Male,2025-08-24,1,82110.87,82110.87,Fashion,131,3,4,2,9,Needs Attention
+CUST8700,Customer_233,Mumbai,35,Female,2025-07-16,1,125182.65,125182.65,Electronics,170,3,4,3,10,Champions
+CUST8704,Customer_440,Kolkata,20,Female,2025-11-05,1,107664.42,107664.42,Electronics,58,4,4,2,10,Needs Attention
+CUST8708,Customer_293,Kolkata,59,Male,2025-04-18,2,458065.57000000007,229032.78500000003,Electronics,259,2,4,4,10,At-Risk High-Value
+CUST8722,Customer_475,Mumbai,21,Male,2025-01-11,1,196134.84,196134.84,Electronics,356,1,4,3,8,At-Risk High-Value
+CUST8729,Customer_72,Kolkata,48,Male,2025-12-07,1,163132.56,163132.56,Furniture,26,4,4,3,11,Champions
+CUST8754,Customer_77,Kolkata,28,Male,2025-12-09,1,173173.12,173173.12,Electronics,24,4,4,3,11,Champions
+CUST8759,Customer_20,Hyderabad,64,Female,2025-02-28,1,22534.47,22534.47,Furniture,308,1,4,1,6,Lost / Churned
+CUST8766,Customer_140,Hyderabad,47,Female,2025-05-12,1,235105.5,235105.5,Electronics,235,2,4,4,10,At-Risk High-Value
+CUST8789,Customer_4,Delhi,52,Female,2025-12-07,1,26647.6,26647.6,Education,26,4,4,1,9,Needs Attention
+CUST8811,Customer_115,Bengaluru,50,Female,2025-12-12,1,44708.5,44708.5,Furniture,21,4,4,1,9,Needs Attention
+CUST8813,Customer_83,Bengaluru,54,Male,2025-09-05,1,350597.34,350597.34,Electronics,119,3,4,4,11,Champions
+CUST8820,Customer_339,Kolkata,39,Female,2025-05-16,1,294353.64,294353.64,Electronics,231,2,4,4,10,At-Risk High-Value
+CUST8826,Customer_206,Gaya,20,Female,2025-01-13,1,154420.0,154420.0,Electronics,354,1,4,3,8,At-Risk High-Value
+CUST8834,Customer_413,Mumbai,61,Female,2025-07-05,1,73262.46,73262.46,Grocery,181,2,4,2,8,Lost / Churned
+CUST8841,Customer_407,Patna,36,Female,2025-01-30,1,174065.2,174065.2,Education,337,1,4,3,8,At-Risk High-Value
+CUST8849,Customer_380,Patna,19,Female,2025-02-11,1,181093.04,181093.04,Education,325,1,4,3,8,At-Risk High-Value
+CUST8851,Customer_118,Kolkata,64,Male,2025-09-30,1,3753.78,3753.78,Furniture,94,3,4,1,8,Needs Attention
+CUST8859,Customer_53,Patna,41,Male,2025-02-21,1,141013.88,141013.88,Electronics,315,1,4,3,8,At-Risk High-Value
+CUST8871,Customer_345,Kolkata,43,Female,2025-08-11,1,113857.04,113857.04,Furniture,144,3,4,3,10,Champions
+CUST8877,Customer_105,Kolkata,23,Female,2025-01-06,1,60403.62,60403.62,Education,361,1,4,2,7,Lost / Churned
+CUST8887,Customer_487,Bengaluru,62,Female,2025-05-13,1,299928.48,299928.48,Education,234,2,4,4,10,At-Risk High-Value
+CUST8899,Customer_482,Delhi,30,Male,2025-04-15,1,153670.14,153670.14,Electronics,262,2,4,3,9,At-Risk High-Value
+CUST8904,Customer_152,Kolkata,28,Female,2025-10-16,1,63886.38,63886.38,Grocery,78,4,4,2,10,Needs Attention
+CUST8907,Customer_51,Hyderabad,47,Male,2025-10-23,1,288940.95,288940.95,Grocery,71,4,4,4,12,Champions
+CUST8908,Customer_190,Pune,65,Male,2025-03-18,1,2344.98,2344.98,Fashion,290,1,4,1,6,Lost / Churned
+CUST8947,Customer_375,Patna,65,Female,2025-12-19,1,146639.61,146639.61,Grocery,14,4,4,3,11,Champions
+CUST8962,Customer_440,Kolkata,30,Female,2025-07-31,1,254006.73,254006.73,Education,155,3,4,4,11,Champions
+CUST8975,Customer_315,Gaya,36,Female,2025-03-08,1,191586.8,191586.8,Electronics,300,1,4,3,8,At-Risk High-Value
+CUST8996,Customer_165,Hyderabad,59,Male,2025-03-07,1,126134.07,126134.07,Fashion,301,1,4,3,8,At-Risk High-Value
+CUST9008,Customer_279,Hyderabad,54,Female,2025-10-20,1,125266.25,125266.25,Education,74,4,4,3,11,Champions
+CUST9009,Customer_424,Mumbai,43,Male,2025-12-10,1,76855.26,76855.26,Electronics,23,4,4,2,10,Needs Attention
+CUST9017,Customer_51,Delhi,26,Female,2025-08-15,1,109163.28,109163.28,Education,140,3,4,2,9,Needs Attention
+CUST9022,Customer_131,Mumbai,49,Female,2025-06-04,1,91224.84,91224.84,Grocery,212,2,4,2,8,Lost / Churned
+CUST9027,Customer_153,Mumbai,43,Female,2025-05-07,1,25767.92,25767.92,Fashion,240,2,4,1,7,Lost / Churned
+CUST9042,Customer_354,Hyderabad,31,Female,2025-11-09,1,64916.12,64916.12,Furniture,54,4,4,2,10,Needs Attention
+CUST9047,Customer_363,Patna,42,Male,2025-04-02,1,325228.19,325228.19,Electronics,275,1,4,4,9,At-Risk High-Value
+CUST9055,Customer_359,Gaya,62,Male,2025-07-05,1,47870.04,47870.04,Electronics,181,2,4,2,8,Lost / Churned
+CUST9059,Customer_288,Delhi,33,Male,2025-04-27,1,150907.5,150907.5,Electronics,250,2,4,3,9,At-Risk High-Value
+CUST9081,Customer_244,Mumbai,63,Female,2025-08-03,2,386309.13,193154.565,Education,152,3,4,4,11,Champions
+CUST9089,Customer_177,Patna,24,Male,2025-12-16,2,469247.1,234623.55,Education,17,4,4,4,12,Champions
+CUST9092,Customer_97,Mumbai,64,Male,2025-07-30,1,37930.19,37930.19,Furniture,156,3,4,1,8,Needs Attention
+CUST9097,Customer_384,Hyderabad,26,Male,2025-08-28,1,64336.72,64336.72,Education,127,3,4,2,9,Needs Attention
+CUST9104,Customer_443,Bengaluru,37,Male,2025-12-19,1,91718.44,91718.44,Education,14,4,4,2,10,Needs Attention
+CUST9111,Customer_235,Kolkata,61,Female,2025-04-02,1,153103.75,153103.75,Fashion,275,1,4,3,8,At-Risk High-Value
+CUST9113,Customer_175,Hyderabad,61,Male,2025-08-04,1,191143.08,191143.08,Education,151,3,4,3,10,Champions
+CUST9123,Customer_395,Mumbai,27,Female,2025-10-21,1,270574.5,270574.5,Grocery,73,4,4,4,12,Champions
+CUST9125,Customer_19,Mumbai,21,Female,2025-08-10,1,47927.36,47927.36,Furniture,145,3,4,2,9,Needs Attention
+CUST9131,Customer_249,Delhi,38,Female,2025-04-28,1,372913.47,372913.47,Education,249,2,4,4,10,At-Risk High-Value
+CUST9132,Customer_210,Pune,21,Female,2025-01-15,1,310471.04,310471.04,Grocery,352,1,4,4,9,At-Risk High-Value
+CUST9158,Customer_297,Gaya,61,Male,2025-04-11,1,22073.28,22073.28,Furniture,266,2,4,1,7,Lost / Churned
+CUST9159,Customer_12,Kolkata,40,Female,2025-04-05,1,208852.56,208852.56,Electronics,272,2,4,3,9,At-Risk High-Value
+CUST9175,Customer_441,Mumbai,36,Male,2025-08-11,1,212252.94,212252.94,Fashion,144,3,4,3,10,Champions
+CUST9181,Customer_122,Patna,24,Female,2025-06-18,1,2892.4,2892.4,Electronics,198,2,4,1,7,Lost / Churned
+CUST9191,Customer_323,Hyderabad,38,Male,2025-02-23,1,153373.8,153373.8,Education,313,1,4,3,8,At-Risk High-Value
+CUST9203,Customer_70,Delhi,33,Male,2025-06-08,1,27936.6,27936.6,Electronics,208,2,4,1,7,Lost / Churned
+CUST9209,Customer_233,Mumbai,21,Female,2025-10-24,2,280214.68000000005,140107.34000000003,Electronics,70,4,4,4,12,Champions
+CUST9217,Customer_448,Delhi,39,Female,2025-05-06,1,22073.4,22073.4,Education,241,2,4,1,7,Lost / Churned
+CUST9219,Customer_132,Gaya,30,Female,2025-02-02,1,131685.75,131685.75,Electronics,334,1,4,3,8,At-Risk High-Value
+CUST9233,Customer_485,Hyderabad,35,Male,2025-05-04,1,363317.5,363317.5,Furniture,243,2,4,4,10,At-Risk High-Value
+CUST9248,Customer_451,Mumbai,51,Male,2025-04-06,1,106419.88,106419.88,Furniture,271,2,4,2,8,Lost / Churned
+CUST9253,Customer_371,Pune,50,Female,2025-10-29,1,215803.3,215803.3,Grocery,65,4,4,4,12,Champions
+CUST9259,Customer_276,Hyderabad,30,Male,2025-08-22,1,70840.92,70840.92,Electronics,133,3,4,2,9,Needs Attention
+CUST9273,Customer_162,Hyderabad,32,Female,2025-03-08,1,143245.35,143245.35,Furniture,300,1,4,3,8,At-Risk High-Value
+CUST9282,Customer_322,Mumbai,58,Female,2025-04-21,1,70625.7,70625.7,Electronics,256,2,4,2,8,Lost / Churned
+CUST9284,Customer_212,Kolkata,44,Female,2025-04-16,1,19210.3,19210.3,Education,261,2,4,1,7,Lost / Churned
+CUST9285,Customer_452,Gaya,49,Female,2025-12-09,1,223298.32,223298.32,Electronics,24,4,4,4,12,Champions
+CUST9287,Customer_281,Bengaluru,54,Female,2025-09-28,2,163555.53999999998,81777.76999999999,Education,96,3,4,3,10,Champions
+CUST9292,Customer_89,Bengaluru,33,Male,2025-10-25,1,128637.6,128637.6,Fashion,69,4,4,3,11,Champions
+CUST9297,Customer_488,Kolkata,27,Female,2025-06-03,1,203724.09,203724.09,Electronics,213,2,4,3,9,At-Risk High-Value
+CUST9299,Customer_13,Delhi,62,Female,2025-06-10,1,215004.9,215004.9,Electronics,206,2,4,4,10,At-Risk High-Value
+CUST9303,Customer_321,Kolkata,44,Female,2025-08-25,1,376981.83,376981.83,Electronics,130,3,4,4,11,Champions
+CUST9304,Customer_216,Bengaluru,38,Female,2025-03-27,1,64664.54,64664.54,Fashion,281,1,4,2,7,Lost / Churned
+CUST9307,Customer_313,Delhi,36,Female,2025-08-30,2,390387.42,195193.71,Education,125,3,4,4,11,Champions
+CUST9319,Customer_434,Pune,54,Female,2025-02-08,1,36805.55,36805.55,Grocery,328,1,4,1,6,Lost / Churned
+CUST9324,Customer_58,Hyderabad,61,Female,2025-09-06,1,12494.97,12494.97,Furniture,118,3,4,1,8,Needs Attention
+CUST9325,Customer_352,Mumbai,44,Female,2025-12-04,1,87780.4,87780.4,Electronics,29,4,4,2,10,Needs Attention
+CUST9339,Customer_127,Patna,55,Male,2025-01-04,1,245737.05,245737.05,Furniture,363,1,4,4,9,At-Risk High-Value
+CUST9351,Customer_352,Pune,36,Male,2025-06-12,1,398903.76,398903.76,Education,204,2,4,4,10,At-Risk High-Value
+CUST9354,Customer_241,Patna,46,Female,2025-03-27,1,42782.38,42782.38,Grocery,281,1,4,1,6,Lost / Churned
+CUST9364,Customer_352,Gaya,62,Female,2025-03-21,1,99559.14,99559.14,Education,287,1,4,2,7,Lost / Churned
+CUST9379,Customer_263,Kolkata,38,Female,2025-03-22,1,9009.36,9009.36,Electronics,286,1,4,1,6,Lost / Churned
+CUST9381,Customer_352,Kolkata,45,Male,2025-06-16,2,441863.7,220931.85,Education,200,2,4,4,10,At-Risk High-Value
+CUST9384,Customer_230,Mumbai,28,Female,2025-10-19,1,20626.25,20626.25,Grocery,75,4,4,1,9,Needs Attention
+CUST9404,Customer_463,Gaya,19,Female,2025-06-27,1,70861.06,70861.06,Education,189,2,4,2,8,Lost / Churned
+CUST9414,Customer_359,Hyderabad,61,Female,2025-12-17,1,77138.4,77138.4,Grocery,16,4,4,2,10,Needs Attention
+CUST9421,Customer_355,Bengaluru,64,Female,2025-11-20,2,115788.23999999999,57894.119999999995,Fashion,43,4,4,3,11,Champions
+CUST9449,Customer_178,Mumbai,49,Female,2025-08-06,1,23934.94,23934.94,Fashion,149,3,4,1,8,Needs Attention
+CUST9450,Customer_230,Bengaluru,18,Male,2025-06-08,1,112729.05,112729.05,Electronics,208,2,4,3,9,At-Risk High-Value
+CUST9458,Customer_25,Delhi,22,Male,2025-05-09,2,56158.259999999995,28079.129999999997,Electronics,238,2,4,2,8,Lost / Churned
+CUST9464,Customer_357,Gaya,39,Male,2025-12-25,1,45338.4,45338.4,Education,8,4,4,1,9,Needs Attention
+CUST9465,Customer_470,Kolkata,44,Male,2025-04-22,2,184323.94,92161.97,Electronics,255,2,4,3,9,At-Risk High-Value
+CUST9469,Customer_426,Kolkata,18,Female,2025-06-17,2,232888.33,116444.165,Fashion,199,2,4,4,10,At-Risk High-Value
+CUST9485,Customer_43,Mumbai,57,Male,2025-06-15,1,85037.6,85037.6,Electronics,201,2,4,2,8,Lost / Churned
+CUST9486,Customer_19,Hyderabad,29,Male,2025-04-18,1,432103.32,432103.32,Fashion,259,2,4,4,10,At-Risk High-Value
+CUST9488,Customer_147,Pune,37,Male,2025-03-13,1,58079.12,58079.12,Fashion,295,1,4,2,7,Lost / Churned
+CUST9489,Customer_385,Delhi,61,Male,2025-06-27,1,29313.46,29313.46,Education,189,2,4,1,7,Lost / Churned
+CUST9493,Customer_34,Gaya,35,Male,2025-06-11,1,127543.5,127543.5,Electronics,205,2,4,3,9,At-Risk High-Value
+CUST9501,Customer_241,Delhi,41,Male,2025-02-21,1,25911.09,25911.09,Electronics,315,1,4,1,6,Lost / Churned
+CUST9510,Customer_345,Kolkata,21,Female,2025-05-10,2,867333.24,433666.62,Furniture,237,2,4,4,10,At-Risk High-Value
+CUST9514,Customer_180,Patna,28,Female,2025-06-20,1,46255.26,46255.26,Furniture,196,2,4,1,7,Lost / Churned
+CUST9515,Customer_52,Kolkata,29,Female,2025-05-08,1,133044.7,133044.7,Furniture,239,2,4,3,9,At-Risk High-Value
+CUST9518,Customer_192,Pune,22,Male,2025-11-13,1,123894.12,123894.12,Electronics,50,4,4,3,11,Champions
+CUST9543,Customer_448,Bengaluru,45,Female,2025-02-17,1,91618.18,91618.18,Furniture,319,1,4,2,7,Lost / Churned
+CUST9544,Customer_140,Hyderabad,62,Female,2025-09-30,1,116744.31,116744.31,Electronics,94,3,4,3,10,Champions
+CUST9551,Customer_230,Bengaluru,18,Male,2025-03-13,1,474935.9,474935.9,Electronics,295,1,4,4,9,At-Risk High-Value
+CUST9552,Customer_340,Patna,30,Male,2025-08-09,1,7745.85,7745.85,Furniture,146,3,4,1,8,Needs Attention
+CUST9557,Customer_475,Mumbai,47,Male,2025-01-28,1,137155.95,137155.95,Education,339,1,4,3,8,At-Risk High-Value
+CUST9562,Customer_162,Mumbai,39,Male,2025-02-23,1,129925.28,129925.28,Furniture,313,1,4,3,8,At-Risk High-Value
+CUST9563,Customer_166,Gaya,24,Male,2025-05-19,1,35133.76,35133.76,Education,228,2,4,1,7,Lost / Churned
+CUST9565,Customer_350,Mumbai,21,Female,2025-10-22,1,174333.28,174333.28,Education,72,4,4,3,11,Champions
+CUST9567,Customer_218,Delhi,38,Male,2025-06-13,1,33193.9,33193.9,Fashion,203,2,4,1,7,Lost / Churned
+CUST9577,Customer_302,Mumbai,46,Male,2025-03-21,1,145301.46,145301.46,Electronics,287,1,4,3,8,At-Risk High-Value
+CUST9612,Customer_463,Kolkata,21,Male,2025-10-22,1,66134.2,66134.2,Electronics,72,4,4,2,10,Needs Attention
+CUST9614,Customer_235,Bengaluru,23,Male,2025-09-13,1,84656.2,84656.2,Fashion,111,3,4,2,9,Needs Attention
+CUST9619,Customer_491,Pune,30,Male,2025-01-22,1,3839.04,3839.04,Electronics,345,1,4,1,6,Lost / Churned
+CUST9622,Customer_224,Kolkata,35,Male,2025-12-05,1,28466.49,28466.49,Electronics,28,4,4,1,9,Needs Attention
+CUST9627,Customer_444,Gaya,47,Male,2025-03-30,1,139501.8,139501.8,Grocery,278,1,4,3,8,At-Risk High-Value
+CUST9628,Customer_422,Bengaluru,27,Male,2025-01-08,1,72852.1,72852.1,Furniture,359,1,4,2,7,Lost / Churned
+CUST9642,Customer_162,Delhi,51,Male,2025-05-05,1,42454.26,42454.26,Fashion,242,2,4,1,7,Lost / Churned
+CUST9645,Customer_341,Hyderabad,25,Female,2025-09-11,2,131738.91999999998,65869.45999999999,Furniture,113,3,4,3,10,Champions
+CUST9649,Customer_322,Gaya,58,Male,2025-04-03,1,334585.35,334585.35,Electronics,274,1,4,4,9,At-Risk High-Value
+CUST9650,Customer_361,Hyderabad,33,Female,2025-09-19,1,17299.04,17299.04,Education,105,3,4,1,8,Needs Attention
+CUST9651,Customer_461,Delhi,60,Female,2025-11-19,1,242701.7,242701.7,Education,44,4,4,4,12,Champions
+CUST9674,Customer_232,Mumbai,41,Female,2025-05-20,1,106274.97,106274.97,Electronics,227,2,4,2,8,Lost / Churned
+CUST9693,Customer_343,Patna,48,Male,2025-04-12,2,511421.86,255710.93,Education,265,2,4,4,10,At-Risk High-Value
+CUST9700,Customer_441,Kolkata,25,Female,2025-09-04,1,40148.6,40148.6,Electronics,120,3,4,1,8,Needs Attention
+CUST9709,Customer_409,Pune,41,Male,2025-07-11,1,378037.6,378037.6,Electronics,175,3,4,4,11,Champions
+CUST9718,Customer_11,Patna,57,Female,2025-07-13,1,91726.26,91726.26,Electronics,173,3,4,2,9,Needs Attention
+CUST9724,Customer_220,Pune,35,Male,2025-04-30,1,156221.6,156221.6,Electronics,247,2,4,3,9,At-Risk High-Value
+CUST9728,Customer_338,Gaya,45,Male,2025-08-30,1,185424.32,185424.32,Grocery,125,3,4,3,10,Champions
+CUST9745,Customer_48,Mumbai,27,Male,2025-07-06,1,29263.26,29263.26,Fashion,180,3,4,1,8,Needs Attention
+CUST9754,Customer_304,Delhi,19,Male,2025-02-14,1,203569.62,203569.62,Furniture,322,1,4,3,8,At-Risk High-Value
+CUST9770,Customer_494,Mumbai,41,Female,2025-11-21,1,116929.38,116929.38,Education,42,4,4,3,11,Champions
+CUST9776,Customer_345,Delhi,54,Female,2025-02-28,1,34541.88,34541.88,Grocery,308,1,4,1,6,Lost / Churned
+CUST9788,Customer_229,Hyderabad,64,Male,2025-11-12,1,138165.76,138165.76,Electronics,51,4,4,3,11,Champions
+CUST9804,Customer_284,Patna,32,Male,2025-08-22,1,226417.1,226417.1,Electronics,133,3,4,4,11,Champions
+CUST9812,Customer_333,Pune,20,Female,2025-06-21,1,28196.26,28196.26,Electronics,195,2,4,1,7,Lost / Churned
+CUST9817,Customer_388,Patna,45,Male,2025-10-15,1,66300.43,66300.43,Electronics,79,4,4,2,10,Needs Attention
+CUST9840,Customer_347,Bengaluru,38,Female,2025-01-10,1,163236.96,163236.96,Electronics,357,1,4,3,8,At-Risk High-Value
+CUST9846,Customer_298,Patna,58,Female,2025-04-14,1,64707.84,64707.84,Education,263,2,4,2,8,Lost / Churned
+CUST9849,Customer_264,Delhi,53,Female,2025-09-21,1,192594.75,192594.75,Furniture,103,3,4,3,10,Champions
+CUST9869,Customer_394,Hyderabad,40,Female,2025-06-24,1,206413.15,206413.15,Education,192,2,4,3,9,At-Risk High-Value
+CUST9871,Customer_187,Pune,27,Female,2025-12-16,1,34690.3,34690.3,Electronics,17,4,4,1,9,Needs Attention
+CUST9875,Customer_6,Bengaluru,49,Male,2025-04-04,1,120557.08,120557.08,Electronics,273,1,4,3,8,At-Risk High-Value
+CUST9882,Customer_103,Kolkata,28,Female,2025-09-04,1,33198.0,33198.0,Electronics,120,3,4,1,8,Needs Attention
+CUST9900,Customer_496,Bengaluru,26,Male,2025-06-12,1,97972.96,97972.96,Fashion,204,2,4,2,8,Lost / Churned
+CUST9910,Customer_110,Hyderabad,18,Male,2025-10-17,1,90068.24,90068.24,Fashion,77,4,4,2,10,Needs Attention
+CUST9927,Customer_357,Bengaluru,37,Female,2025-08-11,1,35804.49,35804.49,Fashion,144,3,4,1,8,Needs Attention
+CUST9942,Customer_466,Kolkata,29,Female,2025-10-01,2,315539.87,157769.935,Electronics,93,3,4,4,11,Champions
+CUST9945,Customer_495,Hyderabad,24,Male,2025-03-27,1,3375.35,3375.35,Grocery,281,1,4,1,6,Lost / Churned
+CUST9952,Customer_453,Bengaluru,30,Female,2025-05-09,1,198199.5,198199.5,Electronics,238,2,4,3,9,At-Risk High-Value
+CUST9953,Customer_484,Hyderabad,50,Female,2025-05-31,1,221829.7,221829.7,Electronics,216,2,4,4,10,At-Risk High-Value
+CUST9957,Customer_116,Pune,29,Female,2025-12-31,1,99838.56,99838.56,Furniture,2,4,4,2,10,Needs Attention
+CUST9962,Customer_161,Mumbai,45,Male,2025-09-03,1,181783.2,181783.2,Furniture,121,3,4,3,10,Champions
+CUST9966,Customer_199,Kolkata,44,Male,2025-11-06,2,399939.3,199969.65,Electronics,57,4,4,4,12,Champions
+CUST9994,Customer_13,Delhi,49,Male,2025-01-11,1,261678.42,261678.42,Furniture,356,1,4,4,9,At-Risk High-Value
